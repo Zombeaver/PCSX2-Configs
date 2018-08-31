@@ -1,0 +1,3 @@
+comment=Disgaea: remove blur fix
+
+patch=1,EE,20453F5B,byte,000000FF
