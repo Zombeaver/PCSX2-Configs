@@ -1,6 +1,6 @@
 ![](https://forums.launchbox-app.com/uploads/monthly_2017_11/tumblr_mcoma8r8jv1qbxlono1_500.gif.bb3379452f0a7273e9f944b6aa6bccfd.gif)
 
-These are configuration files to be used in conjunction with the PS2 emulator [PCSX2](https://pcsx2.net/) and the [PCSX2 Configurator](https://github.com/roguesaloon/launchbox-plugin_pcsx2-configurator) plugin for [Launchbox](https://www.launchbox-app.com/). These require **PCSX2 1.5.0 or higher** to function properly. You can find the latest development builds (1.5.0) available [here](https://pcsx2.net/download/development.html).
+These are configuration files to be used in conjunction with the PS2 emulator [PCSX2](https://pcsx2.net/) and the [PCSX2 Configurator](https://github.com/roguesaloon/launchbox-plugin_pcsx2-configurator-next) plugin for [Launchbox](https://www.launchbox-app.com/). These require **PCSX2 1.5.0 or higher** to function properly. You can find the latest development builds (1.5.0) available [here](https://pcsx2.net/download/development.html).
 
 The configurations have been tested and created on a mid-range PC (Win 7/64-bit, i7 4770k, GTX 780, 32GB RAM) and are designed to eliminate as many problems and visual errors as possible, while still upscaling (by 4x generally) wherever possible.
 
