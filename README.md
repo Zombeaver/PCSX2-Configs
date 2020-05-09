@@ -32,6 +32,6 @@ One additional thing you can try is changing the sync mode in the SPU settings f
 
 ![](https://forums.launchbox-app.com/uploads/monthly_2017_11/Async.png.ad0d95feecb43c57a5038e2c28e42046.png)
 
-You can also try adjusting the EE Cycle Rate, but I don't recommend doing this unless you really have no other option. This has a significantly higher probability of breaking things, so leave it alone unless absolutely necessary.
+You can also try adjusting the EE Cycle Rate, but I don't recommend doing this unless you really have no other option. It can be helpful on occasion, but it has a significantly higher probability of breaking things, so leave it alone unless absolutely necessary. I would highly recommend that you never change EE Cycle Skipping at all, as it has an even greater chance of breaking things, causing dropped frames, giving false speed numbers... just leave it alone.
 
 My hope is that the vast majority of people won’t have to change anything at all, but I wanted to give som﻿e pointers here in case y﻿our system is struggling.
