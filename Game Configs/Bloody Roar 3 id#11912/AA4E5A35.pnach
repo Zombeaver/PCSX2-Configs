@@ -1,0 +1,2 @@
+//Bloody Roar 3 NTSC-U No Interlacing Patch
+patch=1,EE,201CF8DC,word,00000000

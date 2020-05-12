@@ -1,0 +1,3 @@
+//Street Fighter EX3 NTSC-U No Interlacing Patch
+patch=1,EE,202E11FC,extended,00000000
+patch=1,EE,202E1284,extended,00000000

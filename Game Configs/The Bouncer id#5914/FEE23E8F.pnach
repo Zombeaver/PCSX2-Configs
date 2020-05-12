@@ -1,0 +1,3 @@
+//The Bouncer NTSC-U No Interlacing Patch
+patch=1,EE,202ECD74,word,00000000
+patch=1,EE,202ECFDC,word,00000000

@@ -1,0 +1,13 @@
+// SMT Digital Devil Saga 2 Progressive Scan Patch by Altimor
+// NOP out old interlaced field switch
+patch=1,EE,0032A408,word,00000000
+
+// Another field switch here that needs to be NOP'd to prevent
+// post processing effects from getting misaligned when entering
+// and leaving menus.
+patch=1,EE,0032DF10,word,00000000
+
+// Patch sceGsResetGraph arguments to set 480p
+patch=1,EE,00348C24,word,24110000 // addiu $s1, 0, 0x00
+patch=1,EE,00348C28,word,24120050 // addiu $s2, 0, 0x50
+patch=1,EE,00348C2C,word,24020001 // addiu $s3, 0, 0x01

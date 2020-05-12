@@ -1,0 +1,13 @@
+gametitle=Shin Megami Tensei - Nocturne (SLUS-20911) (CRC-E8FCF8EC)
+// NOP out old interlaced field switch
+patch=1,EE,002AA1B4,word,00000000
+
+// Another field switch here that needs to be NOP'd to prevent
+// post processing effects from getting misaligned when entering
+// and leaving menus.
+patch=1,EE,002ADBE0,word,00000000
+
+// Patch sceGsResetGraph arguments to set 480p
+patch=1,EE,002C81D4,word,24110000 // addiu $s1, 0, 0x00
+patch=1,EE,002C81D8,word,24120050 // addiu $s2, 0, 0x50
+patch=1,EE,002C81DC,word,24020001 // addiu $s3, 0, 0x01
