@@ -1,0 +1,4 @@
+//Soul Reaver 2 NTSC-U No Interlacing Patch
+patch=1,EE,201A8D30,word,30420000
+patch=1,EE,00200AB4,word,00000000
+patch=1,EE,03223EDC,word,00000000

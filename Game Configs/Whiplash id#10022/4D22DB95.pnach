@@ -1,0 +1,4 @@
+//Whiplash NTSC-U No Interlacing Patch
+patch=1,EE,2025DFA4,extended,30630000
+patch=1,EE,20353958,extended,34030001
+patch=1,EE,2035396C,extended,34029040
