@@ -1,0 +1,3 @@
+//Shadow of Rome NTSC-U No Interlacing Patch
+//no interleacing, videos still shake
+patch=1,EE,201E9274,extended,30420000
