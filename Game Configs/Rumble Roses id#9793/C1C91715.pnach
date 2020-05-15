@@ -1,0 +1,8 @@
+//Rumble Roses NTSC-J SLPM-65885 No Interlacing Patch
+patch=1,EE,201029FC,extended,00000000
+patch=1,EE,20102C64,extended,00000000
+patch=1,EE,E0041100,extended,01D4ADA0
+patch=1,EE,21D4AD98,extended,00000001
+patch=1,EE,21D4ADA0,extended,00001000
+patch=1,EE,21D4ADC0,extended,00000001
+patch=1,EE,21D4ADC8,extended,00001000

@@ -1,0 +1,3 @@
+//Tales of Legendia NTSC-J SLPS-25533 No Interlacing Patch
+patch=1,EE,D03F3FD0,extended,00001000
+patch=1,EE,103F3FD0,extended,000010E0

@@ -1,0 +1,7 @@
+//Onimusha 2 NTSC-J SLPM-65100 No Interlacing Patch
+patch=1,EE,017288FD,extended,00000000
+patch=1,EE,20100F4C,extended,00000000
+patch=1,EE,201011B4,extended,00000000
+patch=1,EE,2014C430,extended,24037900
+patch=1,EE,20183584,extended,00007025
+patch=1,EE,2019C2F4,extended,24047900

@@ -1,0 +1,3 @@
+//Shadow Hearts NTSC-J SLPS-25041 No Interlacing Patch
+patch=1,EE,202016EC,extended,00000000
+patch=1,EE,20305C80,extended,A2200279
