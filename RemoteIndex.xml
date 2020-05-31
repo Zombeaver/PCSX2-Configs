@@ -441,7 +441,7 @@
       <GameId>SLPM-74242</GameId>
       <GameId>SLUS-20964</GameId>
       <GameId>SLUS-21361</GameId>
-    </GameId>
+    </GameIds>
   </Config>
   <Config Name="Devil May Cry id#15">
     <GameIds>
