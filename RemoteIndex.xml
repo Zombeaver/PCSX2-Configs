@@ -611,7 +611,7 @@
   </Config>
   <Config Name="Fatal Frame II Crimson Butterfly id#7251">
     <GameIds>
-      <GameId>SLUS-20766<GameId>
+      <GameId>SLUS-20766</GameId>
       <GameId>SCAJ-20050</GameId>
       <GameId>SCKA-20023</GameId>
       <GameId>SLPS-73201</GameId>
