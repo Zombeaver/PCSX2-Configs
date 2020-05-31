@@ -1,0 +1,2099 @@
+<RemoteConfigs>
+  <Config Name="007 Everything or Nothing id#4760">
+    <GameIds>
+      <GameId>SLES-52005</GameId>
+      <GameId>SLES-52046</GameId>
+      <GameId>SLPM-65446</GameId>
+      <GameId>SLPM-65725</GameId>
+      <GameId>SLUS-20751</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="18 Wheeler American Pro Trucker id#7238">
+    <GameIds>
+      <GameId>SLES-50214</GameId>
+      <GameId>SLES-51214</GameId>
+      <GameId>SLPM-62211</GameId>
+      <GameId>SLUS-20210</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ace Combat 04 Shattered Skies id#9620">
+    <GameIds>
+      <GameId>SLPS-25052</GameId>
+      <GameId>SLPS-73205</GameId>
+      <GameId>SLPS-73410</GameId>
+      <GameId>SLUS-20152</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ace Combat 5 The Unsung War id#3912">
+    <GameIds>
+      <GameId>SCAJ-20104</GameId>
+      <GameId>SCAJ-20136</GameId>
+      <GameId>SLPS-25418</GameId>
+      <GameId>SLPS-73218</GameId>
+      <GameId>SLUS-20851</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ace Combat Zero The Belkan War id#4422">
+    <GameIds>
+      <GameId>SCAJ-20173</GameId>
+      <GameId>SCKA-20070</GameId>
+      <GameId>SLPS-25629</GameId>
+      <GameId>SLPS-73250</GameId>
+      <GameId>SLUS-21346</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="AirBlade id#5869">
+    <GameIds>
+      <GameId>SCES-50246</GameId>
+      <GameId>SLUS-20346</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Airforce Delta Strike id#5870">
+    <GameIds>
+      <GameId>SLKA-25133</GameId>
+      <GameId>SLPM-65486</GameId>
+      <GameId>SLPM-65722</GameId>
+      <GameId>SLUS-20703</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Alone in the Dark id#9065">
+    <GameIds>
+      <GameId>SLES-54883</GameId>
+      <GameId>SLES-54884</GameId>
+      <GameId>SLES-55207</GameId>
+      <GameId>SLUS-21690</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Alone in the Dark The New Nightmare id#17686">
+    <GameIds>
+      <GameId>SLPM-65085</GameId>
+      <GameId>SLES-50185</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Alter Echo id#5878">
+    <GameIds>
+      <GameId>SLES-51670</GameId>
+      <GameId>SLES-51671</GameId>
+      <GameId>SLUS-20465</GameId>
+      <GameId>SLUS-29056</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Amplitude id#5881">
+    <GameIds>
+      <GameId>SCES-51706</GameId>
+      <GameId>SCUS-97258</GameId>
+      <GameId>SCUS-97262</GameId>
+      <GameId>SCUS-97292</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ape Escape 2 id#9625">
+    <GameIds>
+      <GameId>SCES-50885</GameId>
+      <GameId>SCES-51102</GameId>
+      <GameId>SCES-51103</GameId>
+      <GameId>SCES-51104</GameId>
+      <GameId>SCES-51105</GameId>
+      <GameId>SCPS-19206</GameId>
+      <GameId>SCPS-55035</GameId>
+      <GameId>SLUS-20685</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ape Escape 3 id#9626">
+    <GameIds>
+      <GameId>SCAJ-20138</GameId>
+      <GameId>SCAJ-20195</GameId>
+      <GameId>SCES-53642</GameId>
+      <GameId>SCKA-20062</GameId>
+      <GameId>SCPS-19327</GameId>
+      <GameId>SCUS-97501</GameId>
+      <GameId>SCUS-97548</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Arc The Lad Twilight Of The Spirits id#9628">
+    <GameIds>
+      <GameId>SCAJ-20019</GameId>
+      <GameId>SCAJ-20038</GameId>
+      <GameId>SCES-51910</GameId>
+      <GameId>SCPS-15040</GameId>
+      <GameId>SCUS-97231</GameId>
+      <GameId>SCUS-97282</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core 2 Another Age id#5886">
+    <GameIds>
+      <GameId>SCPS-55024</GameId>
+      <GameId>SLES-50905</GameId>
+      <GameId>SLPS-25040</GameId>
+      <GameId>SLPS-73411</GameId>
+      <GameId>SLUS-20249</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core 2 id#5365">
+    <GameIds>
+      <GameId>SLES-50079</GameId>
+      <GameId>SLPS-25007</GameId>
+      <GameId>SLPS-73403</GameId>
+      <GameId>SLUS-20014</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core 3 id#5408">
+    <GameIds>
+      <GameId>SCPS-55014</GameId>
+      <GameId>SLES-51399</GameId>
+      <GameId>SLPM-67524</GameId>
+      <GameId>SLPS-25112</GameId>
+      <GameId>SLPS-73417</GameId>
+      <GameId>SLUS-20435</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core Last Raven id#12247">
+    <GameIds>
+      <GameId>SCAJ-20143</GameId>
+      <GameId>SLES-53820</GameId>
+      <GameId>SLPS-25462</GameId>
+      <GameId>SLPS-73247</GameId>
+      <GameId>SLUS-21338</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core Nine Breaker id#95318">
+    <GameIds>
+      <GameId>SCKA-20047</GameId>
+      <GameId>SLES-53819</GameId>
+      <GameId>SLPS-25408</GameId>
+      <GameId>SLUS-21200</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Armored Core Silent Line id#12886">
+    <GameIds>
+      <GameId>SLES-52203</GameId>
+      <GameId>SLUS-20644</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Baldur's Gate Dark Alliance id#5898">
+    <GameIds>
+      <GameId>SLES-50672</GameId>
+      <GameId>SLPS-25139</GameId>
+      <GameId>SLPS-25291</GameId>
+      <GameId>SLUS-20035</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Baldur's Gate Dark Alliance II id#5899">
+    <GameIds>
+      <GameId>SLES-52187</GameId>
+      <GameId>SLES-52188</GameId>
+      <GameId>SLPM-65845</GameId>
+      <GameId>SLUS-20675</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Barbarian id#9631">
+    <GameIds>
+      <GameId>SLES-50972</GameId>
+      <GameId>SLUS-20136</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Baroque id#12947">
+    <GameIds>
+      <GameId>SLES-55216</GameId>
+      <GameId>SLPM-66747</GameId>
+      <GameId>SLUS-21714</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Battle Assault 3 id#5902">
+    <GameIds>
+      <GameId>SLUS-20929</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Battle Engine Aquilla id#12008">
+    <GameIds>
+      <GameId>SLES-50777</GameId>
+      <GameId>SLUS-20495</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Beat Down Fists of Vengeance id#27852">
+    <GameIds>
+      <GameId>SLES-53505</GameId>
+      <GameId>SLPM-66181</GameId>
+      <GameId>SLPM-66446</GameId>
+      <GameId>SLPM-66819</GameId>
+      <GameId>SLUS-21150</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Blood Omen 2 The Legacy Of Kain id#10243">
+    <GameIds>
+      <GameId>SLES-50771</GameId>
+      <GameId>SLES-50772</GameId>
+      <GameId>SLES-50815</GameId>
+      <GameId>SLUS-20024</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Blood Will Tell id#12794">
+    <GameIds>
+      <GameId>SLES-52755</GameId>
+      <GameId>SLUS-20782</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Bloody Roar 3 id#11912">
+    <GameIds>
+      <GameId>SLES-50203</GameId>
+      <GameId>SLPM-62055</GameId>
+      <GameId>SLPM-62133</GameId>
+      <GameId>SLUS-20212</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Bloody Roar 4 id#9634">
+    <GameIds>
+      <GameId>SLES-51877</GameId>
+      <GameId>SLKA-25130</GameId>
+      <GameId>SLPM-65499</GameId>
+      <GameId>SLUS-20795</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Bombastic id#9955">
+    <GameIds>
+      <GameId>SLES-51966</GameId>
+      <GameId>SLUS-20764</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Breath of Fire Dragon Quarter id#9636">
+    <GameIds>
+      <GameId>SLES-51496</GameId>
+      <GameId>SLUS-20499</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Bujingai The Forsaken City id#5907">
+    <GameIds>
+      <GameId>SLUS-20895</GameId>
+      <GameId>SLPM-65459</GameId>
+      <GameId>SCAJ-20056</GameId>
+      <GameId>SLES-52495</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Burnout 3 Takedown id#4158">
+    <GameIds>
+      <GameId>SLAJ-25053</GameId>
+      <GameId>SLED-52597</GameId>
+      <GameId>SLES-52584</GameId>
+      <GameId>SLES-52585</GameId>
+      <GameId>SLPM-65719</GameId>
+      <GameId>SLPM-65958</GameId>
+      <GameId>SLPM-66962</GameId>
+      <GameId>SLUS-21050</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Castlevania Lament Of Innocence id#11966">
+    <GameIds>
+      <GameId>SLES-52118</GameId>
+      <GameId>SLKA-25082</GameId>
+      <GameId>SLPM-65406</GameId>
+      <GameId>SLPM-65444</GameId>
+      <GameId>SLPM-66325</GameId>
+      <GameId>SLUS-20733</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Champions Of Norrath id#5923">
+    <GameIds>
+      <GameId>SLES-52325</GameId>
+      <GameId>SLUS-20565</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Champions Return To Arms id#5924">
+    <GameIds>
+      <GameId>SLES-53039</GameId>
+      <GameId>SLUS-20973</GameId>
+      <GameId>SLUS-29126</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Chaos Legion id#12915">
+    <GameIds>
+      <GameId>SLES-51553</GameId>
+      <GameId>SLKA-25026</GameId>
+      <GameId>SLPM-65249</GameId>
+      <GameId>SLUS-20695</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Chulip id#5932">
+    <GameIds>
+      <GameId>SLPS-20230</GameId>
+      <GameId>SLPS-20471</GameId>
+      <GameId>SLUS-20742</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="City Crisis id#21551">
+    <GameIds>
+      <GameId>SLES-50364</GameId>
+      <GameId>SLPS-20101</GameId>
+      <GameId>SLUS-20274</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Clock Tower 3 id#9644">
+    <GameIds>
+      <GameId>SLES-51619</GameId>
+      <GameId>SLKA-25051</GameId>
+      <GameId>SLPM-65221</GameId>
+      <GameId>SLPM-74416</GameId>
+      <GameId>SLUS-20633</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Cocoto Fighting Master id#129402">
+    <GameIds>
+      <GameId>SLES-54548</GameId>
+      <GameId>SLES-54548</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Cold Fear id#10829">
+    <GameIds>
+      <GameId>SLES-53158</GameId>
+      <GameId>SLUS-21047</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Contra Shattered Soldier id#5405">
+    <GameIds>
+      <GameId>SLES-51284</GameId>
+      <GameId>SLUS-20306</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Crimson Sea 2 id#13064">
+    <GameIds>
+      <GameId>SLES-52556</GameId>
+      <GameId>SLES-52557</GameId>
+      <GameId>SLES-52558</GameId>
+      <GameId>SLPM-65477</GameId>
+      <GameId>SLUS-20877</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Crimson Tears id#12821">
+    <GameIds>
+      <GameId>SLES-52534</GameId>
+      <GameId>SLPM-65575</GameId>
+      <GameId>SLUS-20948</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Curse The Eye Of Isis id#30683">
+    <GameIds>
+      <GameId>SLES-51934</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Cyber Troopers Virtual-On Marz id#31713">
+    <GameIds>
+      <GameId>SLAJ-25014</GameId>
+      <GameId>SLPM-65303</GameId>
+      <GameId>SLPM-74421</GameId>
+      <GameId>SLUS-20674</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dark Angel Vampire Apocalypse id#15210">
+    <GameIds>
+      <GameId>SLUS-20131</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dark Cloud 2 id#9649">
+    <GameIds>
+      <GameId>SCUS-97213</GameId>
+      <GameId>SCUS-97229</GameId>
+      <GameId>SCES-51190</GameId>
+      <GameId>SCPS-15033</GameId>
+      <GameId>SCPS-19215</GameId>
+      <GameId>SCPS-19306</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dark Cloud id#7201">
+    <GameIds>
+      <GameId>SCES-50295</GameId>
+      <GameId>SCPS-15004</GameId>
+      <GameId>SCPS-19203</GameId>
+      <GameId>SCUS-97111</GameId>
+      <GameId>SCUS-97152</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dawn Of Mana id#12916">
+    <GameIds>
+      <GameId>SCKA-20101</GameId>
+      <GameId>SLUS-21574</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dead To Rights id#2313">
+    <GameIds>
+      <GameId>SLES-51581</GameId>
+      <GameId>SLUS-20220</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Def Jam Fight For NY id#7205">
+    <GameIds>
+      <GameId>SLPM-65907</GameId>
+      <GameId>SLPM-66463</GameId>
+      <GameId>SLUS-21004</GameId>
+      <GameId>SLUS-29108</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Devil Kings id#7210">
+    <GameIds>
+      <GameId>SLES-53870</GameId>
+      <GameId>SLUS-21297</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Devil May Cry 3 Special Edition id#4930">
+    <GameIds>
+      <GameId>SLES-53038</GameId>
+      <GameId>SLES-54186</GameId>
+      <GameId>SLKA-25265</GameId>
+      <GameId>SLPM-65880</GameId>
+      <GameId>SLPM-66160</GameId>
+      <GameId>SLPM-74242</GameId>
+      <GameId>SLUS-20964</GameId>
+      <GameId>SLUS-21361</GameId>
+    </GameId>
+  </Config>
+  <Config Name="Devil May Cry id#15">
+    <GameIds>
+      <GameId>SLED-50359</GameId>
+      <GameId>SLES-50358</GameId>
+      <GameId>SLPM-61010</GameId>
+      <GameId>SLPM-65023</GameId>
+      <GameId>SLPM-65038</GameId>
+      <GameId>SLPM-66502</GameId>
+      <GameId>SLPM-67502</GameId>
+      <GameId>SLPM-74230</GameId>
+      <GameId>SLUS-20216</GameId>
+      <GameId>SLUS-29009</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dirge Of Cerberus Final Fantasy Vii id#839">
+    <GameIds>
+      <GameId>SCAJ-20169</GameId>
+      <GameId>SLES-54185</GameId>
+      <GameId>SLPM-66271</GameId>
+      <GameId>SLUS-21419</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Disaster Report id#7214">
+    <GameIds>
+      <GameId>SLUS-20561</GameId>
+      <GameId>SLUS-28025</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Disgaea 2 Cursed Memories id#7215">
+    <GameIds>
+      <GameId>SLES-54454</GameId>
+      <GameId>SLUS-21397</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Disgaea Hour Of Darkness id#7216">
+    <GameIds>
+      <GameId>SLES-52458</GameId>
+      <GameId>SLUS-20666</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dot Hack Infection id#7218">
+    <GameIds>
+      <GameId>SLES-52237</GameId>
+      <GameId>SLUS-20267</GameId>
+      <GameId>SLPS-25121</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dot Hack Mutation id#7219">
+    <GameIds>
+      <GameId>SLES-52467</GameId>
+      <GameId>SLUS-20562</GameId>
+      <GameId>SLPS-25143</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dot Hack Outbreak id#7220">
+    <GameIds>
+      <GameId>SLES-52469</GameId>
+      <GameId>SLUS-20563</GameId>
+      <GameId>SLPS-25158</GameId>
+      <GameId>SCAJ-20004</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dot Hack Quarantine id#7221">
+    <GameIds>
+      <GameId>SLES-52468</GameId>
+      <GameId>SLUS-20564</GameId>
+      <GameId>SLPS-25202</GameId>
+      <GameId>SCAJ-20024</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Downhill Domination id#21114">
+    <GameIds>
+      <GameId>SCUS-97177</GameId>
+      <GameId>SLES-52202</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dr. Muto id#7229">
+    <GameIds>
+      <GameId>SLES-50710</GameId>
+      <GameId>SLUS-20458</GameId>
+      <GameId>SLUS-29040</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Dragon Quest VIII Journey Of The Cursed King id#7226">
+    <GameIds>
+      <GameId>SLES-53974</GameId>
+      <GameId>SLUS-21207</GameId>
+      <GameId>SLUS-29157</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Drakan The Ancients' Gates id#7227">
+    <GameIds>
+      <GameId>SCES-50006</GameId>
+      <GameId>SCUS-97128</GameId>
+      <GameId>SCUS-97169</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Drakengard id#7228">
+    <GameIds>
+      <GameId>SLES-52322</GameId>
+      <GameId>SLUS-20732</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Echo Night Beyond id#12412">
+    <GameIds>
+      <GameId>SLES-53414</GameId>
+      <GameId>SLUS-20928</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Eoe Eve Of Extinction id#7245">
+    <GameIds>
+      <GameId>SLUS-20270</GameId>
+      <GameId>SCPS-55025</GameId>
+      <GameId>SLES-50758</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Espgaluda id#30544">
+    <GameIds>
+      <GameId>SLPS-25352</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Eternal Ring id#12639">
+    <GameIds>
+      <GameId>SLES-50051</GameId>
+      <GameId>SLPS-25001</GameId>
+      <GameId>SLUS-20015</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Everblue 2 id#7246">
+    <GameIds>
+      <GameId>SLUS-20598</GameId>
+      <GameId>SLES-51381</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="EverGrace id#9656">
+    <GameIds>
+      <GameId>SLPS-25003</GameId>
+      <GameId>SLUS-20016</GameId>
+      <GameId>SLES-50050</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Extermination id#12924">
+    <GameIds>
+      <GameId>SCES-50240</GameId>
+      <GameId>SCPS-15011</GameId>
+      <GameId>SCPS-19202</GameId>
+      <GameId>SCUS-97112</GameId>
+      <GameId>SCUS-97160</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Fantavision id#9687">
+    <GameIds>
+      <GameId>SCES-50002</GameId>
+      <GameId>SCPS-11002</GameId>
+      <GameId>SCPS-15030</GameId>
+      <GameId>SCUS-97105</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Fatal Frame id#7250">
+    <GameIds>
+      <GameId>SCPS-55043</GameId>
+      <GameId>SCPS-56008</GameId>
+      <GameId>SLPS-73255</GameId>
+      <GameId>SLUS-20388</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Fatal Frame II Crimson Butterfly id#7251">
+    <GameIds>
+      <GameId>SLUS-20766<GameId>
+      <GameId>SCAJ-20050</GameId>
+      <GameId>SCKA-20023</GameId>
+      <GameId>SLPS-73201</GameId>
+      <GameId>SLPS-73256</GameId>
+      <GameId>SLPS-73257<GameId>
+    <GameIds>
+  </Config>
+  <Config Name="Fatal Frame III The Tormented id#7252">
+    <GameIds>
+      <GameId>SLPS-73257</GameId>
+      <GameId>SLUS-21244</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Final Fantasy X id#20">
+    <GameIds>
+      <GameId>SCED-50642</GameId>
+      <GameId>SCED-50907</GameId>
+      <GameId>SCES-50490</GameId>
+      <GameId>SCES-50491</GameId>
+      <GameId>SCES-50492</GameId>
+      <GameId>SCES-50493</GameId>
+      <GameId>SCES-50494</GameId>
+      <GameId>SLPM-66124</GameId>
+      <GameId>SLPS-25050</GameId>
+      <GameId>SLPS-72501</GameId>
+      <GameId>SLUS-20312</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Final Fantasy XII id#87">
+    <GameIds>
+      <GameId>SCAJ-20172</GameId>
+      <GameId>SCKA-20073</GameId>
+      <GameId>SLES-54354</GameId>
+      <GameId>SLES-54355</GameId>
+      <GameId>SLES-54356</GameId>
+      <GameId>SLES-54357</GameId>
+      <GameId>SLES-54358</GameId>
+      <GameId>SLPM-66320</GameId>
+      <GameId>SLUS-20963</GameId>
+      <GameId>SLUS-21475</GameId>
+      <GameId>SLUS-29171</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Fireblade id#7260">
+    <GameIds>
+      <GameId>SLES-50716</GameId>
+      <GameId>SLES-50995</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Flipnic Ultimate Pinball id#7263">
+    <GameIds>
+      <GameId>SLUS-21157</GameId>
+      <GameId>SLUS-29149</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Forbidden Siren 2 id#17692">
+    <GameIds>
+      <GameId>SCAJ-20161</GameId>
+      <GameId>SCAJ-20167</GameId>
+      <GameId>SCKA-20069</GameId>
+      <GameId>SCPS-15106</GameId>
+      <GameId>SCPS-19326</GameId>
+      <GameId>SCES-53851</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Forever Kingdom id#12780">
+    <GameIds>
+      <GameId>SLUS-20343</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Forgotten Realms Demon Stone id#7265">
+    <GameIds>
+      <GameId>SLES-52669</GameId>
+      <GameId>SLKA-25252</GameId>
+      <GameId>SLPM-65927</GameId>
+      <GameId>SLUS-20804</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Frequency id#7266">
+    <GameIds>
+      <GameId>SCES-50791</GameId>
+      <GameId>SCUS-97125</GameId>
+      <GameId>SCUS-97157</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Front Mission 4 id#7268">
+    <GameIds>
+      <GameId>SCAJ-20057</GameId>
+      <GameId>SLPM-65443</GameId>
+      <GameId>SLPM-66420</GameId>
+      <GameId>SLUS-20888</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Galerians Ash id#13855">
+    <GameIds>
+      <GameId>SLES-51343</GameId>
+      <GameId>SLUS-20560</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gauntlet Dark Legacy id#7274">
+    <GameIds>
+      <GameId>SLES-50211</GameId>
+      <GameId>SLPM-62125</GameId>
+      <GameId>SLUS-20047</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gauntlet Seven Sorrows id#7275">
+    <GameIds>
+      <GameId>SLES-53667</GameId>
+      <GameId>SLUS-21077</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ghosthunter id#7278">
+    <GameIds>
+      <GameId>SCES-51463</GameId>
+      <GameId>SCES-52156</GameId>
+      <GameId>SLUS-20993</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Glass Rose id#30686">
+    <GameIds>
+      <GameId>SLES-52358</GameId>
+      <GameId>SLPM-65373</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Global Defence Force id#15133">
+    <GameIds>
+      <GameId>SLES-54464</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="God Hand id#25">
+    <GameIds>
+      <GameId>SCKA-20090</GameId>
+      <GameId>SLES-54490</GameId>
+      <GameId>SLPM-66550</GameId>
+      <GameId>SLPM-74241</GameId>
+      <GameId>SLUS-21503</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="God Of War id#26">
+    <GameIds>
+      <GameId>SCAJ-30010</GameId>
+      <GameId>SCES-51533</GameId>
+      <GameId>SCES-53133</GameId>
+      <GameId>SCKA-30002</GameId>
+      <GameId>SCUS-97399</GameId>
+      <GameId>SCUS-97467</GameId>
+      <GameId>SLPM-66167</GameId>
+      <GameId>SLPM-67010</GameId>
+      <GameId>SLPM-67011</GameId>
+      <GameId>SLPM-67012</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gradius V id#9604">
+    <GameIds>
+      <GameId>SLES-52095</GameId>
+      <GameId>SLKA-15032</GameId>
+      <GameId>SLPM-62462</GameId>
+      <GameId>SLPM-62621</GameId>
+      <GameId>SLUS-20712</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Grand Theft Auto III id#4165">
+    <GameIds>
+      <GameId>SLES-50330</GameId>
+      <GameId>SLES-50793</GameId>
+      <GameId>SLPM-65382</GameId>
+      <GameId>SLPM-65760</GameId>
+      <GameId>SLPM-66789</GameId>
+      <GameId>SLUS-20062</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Grand Theft Auto Vice City id#4166">
+    <GameIds>
+      <GameId>SLES-51061</GameId>
+      <GameId>SLES-51316</GameId>
+      <GameId>SLES-51595</GameId>
+      <GameId>SLPM-65488</GameId>
+      <GameId>SLPM-66034</GameId>
+      <GameId>SLPM-66790</GameId>
+      <GameId>SLUS-20552</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Grandia III id#12761">
+    <GameIds>
+      <GameId>SCAJ-20141</GameId>
+      <GameId>SLPM-65976</GameId>
+      <GameId>SLPM-65977</GameId>
+      <GameId>SLUS-21334</GameId>
+      <GameId>SLUS-21345</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gregory Horror Show id#29918">
+    <GameIds>
+      <GameId>SLES-51933</GameId>
+      <GameId>SLKA-25033</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gun id#8377">
+    <GameIds>
+      <GameId>SLES-53523</GameId>
+      <GameId>SLES-53647</GameId>
+      <GameId>SLUS-21139</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Gungrave Overdose id#10245">
+    <GameIds>
+      <GameId>SLES-52941</GameId>
+      <GameId>SLUS-21020</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Hard Hitter Tennis id#13972">
+    <GameIds>
+      <GameId>SLES-51057</GameId>
+      <GameId>SLPS-20173</GameId>
+      <GameId>SLPS-20270</GameId>
+      <GameId>SLUS-20568</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Haunting Ground id#9710">
+    <GameIds>
+      <GameId>SLES-52877</GameId>
+      <GameId>SLUS-21075</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Haven Call Of The King id#7294">
+    <GameIds>
+      <GameId>SLED-51281</GameId>
+      <GameId>SLES-51209</GameId>
+      <GameId>SLUS-20157</GameId>
+      <GameId>SLUS-20517</GameId>
+      <GameId>SLUS-28019</GameId>
+      <GameId>SLUS-29038</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Herdy Gerdy id#7972">
+    <GameIds>
+      <GameId>SCAJ-20009</GameId>
+      <GameId>SLES-50751</GameId>
+      <GameId>SLUS-20231</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Hunter The Reckoning Wayward id#17005">
+    <GameIds>
+      <GameId>SLES-51823</GameId>
+      <GameId>SLUS-20511</GameId>
+      <GameId>SLUS-29059</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ico id#2239">
+    <GameIds>
+      <GameId>SCAJ-20099</GameId>
+      <GameId>SCES-50760</GameId>
+      <GameId>SCKA-20028</GameId>
+      <GameId>SCPS-11003</GameId>
+      <GameId>SCPS-19103</GameId>
+      <GameId>SCPS-19151</GameId>
+      <GameId>SCPS-55001</GameId>
+      <GameId>SCPS-56001</GameId>
+      <GameId>SCUS-97113</GameId>
+      <GameId>SCUS-97159</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Jade Cocoon 2 id#12897">
+    <GameIds>
+      <GameId>SLES-50735</GameId>
+      <GameId>SLUS-20309</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Jak II id#4867">
+    <GameIds>
+      <GameId>SCES-51608</GameId>
+      <GameId>SCKA-20010</GameId>
+      <GameId>SCUS-97265</GameId>
+      <GameId>SCUS-97509</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Jaws Unleashed id#5363">
+    <GameIds>
+      <GameId>SLES-54170</GameId>
+      <GameId>SLUS-21062</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Killer7 id#7323">
+    <GameIds>
+      <GameId>SLES-53366</GameId>
+      <GameId>SLPM-65947</GameId>
+      <GameId>SLPM-66744</GameId>
+      <GameId>SLUS-21154</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Kinetica id#25238">
+    <GameIds>
+      <GameId>SCUS-97132</GameId>
+      <GameId>SCUS-97161</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Kingdom Hearts id#2559">
+    <GameIds>
+      <GameId>SCAJ-20149</GameId>
+      <GameId>SCAJ-25004</GameId>
+      <GameId>SCES-50967</GameId>
+      <GameId>SLPS-25105</GameId>
+      <GameId>SCES-50968</GameId>
+      <GameId>SCES-50969</GameId>
+      <GameId>SCES-50970</GameId>
+      <GameId>SCES-50971</GameId>
+      <GameId>SLAJ-25004</GameId>
+      <GameId>SLPM-66122</GameId>
+      <GameId>SLPM-66123</GameId>
+      <GameId>SLPS-25197</GameId>
+      <GameId>SLPS-25198</GameId>
+      <GameId>SLUS-20370</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="King's Field The Ancient City id#12658">
+    <GameIds>
+      <GameId>SLES-50920</GameId>
+      <GameId>SLPS-25057</GameId>
+      <GameId>SLUS-20318</GameId>
+      <GameId>SLUS-20353</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Kuon id#7331">
+    <GameIds>
+      <GameId>SCAJ-20078</GameId>
+      <GameId>SLES-53411</GameId>
+      <GameId>SLPS-25329</GameId>
+      <GameId>SLUS-21007</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Kya Dark Lineage id#7332">
+    <GameIds>
+      <GameId>SLES-51473</GameId>
+      <GameId>SLUS-20440</GameId>
+      <GameId>SLUS-28037</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Legaia 2 Duel Saga id#7334">
+    <GameIds>
+      <GameId>SCPS-15020</GameId>
+      <GameId>SLES-50891</GameId>
+      <GameId>SLUS-20414</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Legend Of Kay id#7336">
+    <GameIds>
+      <GameId>SLES-52931</GameId>
+      <GameId>SLUS-21248</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Magna Carta Tears Of Blood id#7350">
+    <GameIds>
+      <GameId>SLES-53483</GameId>
+      <GameId>SLUS-21221</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Manhunt id#4815">
+    <GameIds>
+      <GameId>SLES-52023</GameId>
+      <GameId>SLUS-20827</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Maximo Ghosts To Glory id#7358">
+    <GameIds>
+      <GameId>SLPM-74004</GameId>
+      <GameId>SLUS-20017</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Maximo Vs. Army Of Zin id#8773">
+    <GameIds>
+      <GameId>SLES-51759</GameId>
+      <GameId>SLUS-20722</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Metal Arms Glitch In The System id#7366">
+    <GameIds>
+      <GameId>SLES-51758</GameId>
+      <GameId>SLUS-20786</GameId>
+      <GameId>SLUS-29081</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Metal Gear Solid 2 Substance id#7367">
+    <GameIds>
+      <GameId>SLUS-20543</GameId>
+      <GameId>SLES-50383</GameId>
+      <GameId>SLES-82009</GameId>
+      <GameId>SLKA-35001</GameId>
+      <GameId>SLPM-67002</GameId>
+      <GameId>SLPM-67008</GameId>
+      <GameId>SLUS-20554</GameId>
+      <GameId>SLES-50385</GameId>
+      <GameId>SLPM-65077</GameId>
+      <GameId>SLPM-65078</GameId>
+      <GameId>SLPM-65754</GameId>
+      <GameId>SLPM-66503</GameId>
+      <GameId>SLPM-66792</GameId>
+      <GameId>SLUS-20144</GameId>
+      <GameId>SLUS-20543</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Metal Gear Solid 3 Subsistence id#6378">
+    <GameIds>
+      <GameId>SLES-82042</GameId>
+      <GameId>SLES-82043</GameId>
+      <GameId>SLES-82044</GameId>
+      <GameId>SLES-82045</GameId>
+      <GameId>SLES-82046</GameId>
+      <GameId>SLES-82047</GameId>
+      <GameId>SLES-82048</GameId>
+      <GameId>SLES-82049</GameId>
+      <GameId>SLES-82050</GameId>
+      <GameId>SLES-82051</GameId>
+      <GameId>SLES-82052</GameId>
+      <GameId>SLES-82053</GameId>
+      <GameId>SLKA-25353</GameId>
+      <GameId>SLKA-25354</GameId>
+      <GameId>SLPM-66117</GameId>
+      <GameId>SLPM-66220</GameId>
+      <GameId>SLPM-66221</GameId>
+      <GameId>SLPM-66222</GameId>
+      <GameId>SLPM-66223</GameId>
+      <GameId>SLPM-66224</GameId>
+      <GameId>SLUS-21243</GameId>
+      <GameId>SLUS-21359</GameId>
+      <GameId>SLUS-21360</GameId>
+      <GameId>SLUS-20915</GameId>
+      <GameId>SLPM-65790</GameId>
+      <GameId>SLPM-65789</GameId>
+      <GameId>SLES-82032</GameId>
+      <GameId>SLES-82026</GameId>
+      <GameId>SLES-82024</GameId>
+      <GameId>SLES-82013</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Metal Saga id#5375">
+    <GameIds>
+      <GameId>SLPM-65868</GameId>
+      <GameId>SLPM-74226</GameId>
+      <GameId>SLUS-21293</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Michigan Report From Hell id#14594">
+    <GameIds>
+      <GameId>SLES-53073</GameId>
+      <GameId>SLPM-65480</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Midnight Club 3 Dub Edition Remix id#24524">
+    <GameIds>
+      <GameId>SLES-53717</GameId>
+      <GameId>SLUS-21355</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Monster Hunter id#13102">
+    <GameIds>
+      <GameId>SLED-53083</GameId>
+      <GameId>SLES-52707</GameId>
+      <GameId>SLPM-65495</GameId>
+      <GameId>SLUS-20896</GameId>
+      <GameId>SLUS-29110</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Monster Lab id#123358">
+    <GameIds>
+      <GameId>SLES-55169</GameId>
+      <GameId>SLUS-21838</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Mortal Kombat Armageddon id#4223">
+    <GameIds>
+      <GameId>SLES-54156</GameId>
+      <GameId>SLUS-21410</GameId>
+      <GameId>SLUS-21543</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Mortal Kombat Deception id#4817">
+    <GameIds>
+      <GameId>SLES-52705</GameId>
+      <GameId>SLES-52706</GameId>
+      <GameId>SLUS-20881</GameId>
+      <GameId>SLUS-21081</GameId>
+      <GameId>SLUS-21101</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Mortal Kombat Shaolin Monks id#5388">
+    <GameIds>
+      <GameId>SLES-53524</GameId>
+      <GameId>SLES-53525</GameId>
+      <GameId>SLUS-21087</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="MotoGP 08 id#125703">
+    <GameIds>
+      <GameId>SLES-55266</GameId>
+      <GameId>SLUS-21811</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Nanobreaker id#23546">
+    <GameIds>
+      <GameId>SLES-52964</GameId>
+      <GameId>SLKA-25263</GameId>
+      <GameId>SLPM-65809</GameId>
+      <GameId>SLUS-21010</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Need For Speed Underground id#5396">
+    <GameIds>
+      <GameId>SLES-51967</GameId>
+      <GameId>SLPM-65614</GameId>
+      <GameId>SLUS-20811</GameId>
+      <GameId>SLUS-29073</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Neo Contra id#7427">
+    <GameIds>
+      <GameId>SLES-52510</GameId>
+      <GameId>SLKA-25227</GameId>
+      <GameId>SLPM-65752</GameId>
+      <GameId>SLPM-65990</GameId>
+      <GameId>SLUS-20961</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Nightshade id#7442">
+    <GameIds>
+      <GameId>SLES-52238</GameId>
+      <GameId>SLUS-20810</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Obscure id#9070">
+    <GameIds>
+      <GameId>SLES-52508</GameId>
+      <GameId>SLES-52737</GameId>
+      <GameId>SLES-52738</GameId>
+      <GameId>SLES-53322</GameId>
+      <GameId>SLUS-20777</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Obscure II The Aftermath id#9069">
+    <GameIds>
+      <GameId>SCKA-20114</GameId>
+      <GameId>SLES-54782</GameId>
+      <GameId>SLUS-21709</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Odin Sphere id#9326">
+    <GameIds>
+      <GameId>SCKA-20107</GameId>
+      <GameId>SLES-55110</GameId>
+      <GameId>SLPM-66474</GameId>
+      <GameId>SLPM-74259</GameId>
+      <GameId>SLUS-21577</GameId>
+      <GameId>SLUS-28065</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Okage Shadow King id#12903">
+    <GameIds>
+      <GameId>SCUS-97129</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Okami id#51">
+    <GameIds>
+      <GameId>SLES-54439</GameId>
+      <GameId>SLPM-74239</GameId>
+      <GameId>SLUS-21115</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Oni id#9765">
+    <GameIds>
+      <GameId>SLES-50134</GameId>
+      <GameId>SLES-50176</GameId>
+      <GameId>SLES-50177</GameId>
+      <GameId>SLES-50178</GameId>
+      <GameId>SLES-50179</GameId>
+      <GameId>SLUS-20064</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Onimusha 2 Samurai's Destiny id#9766">
+    <GameIds>
+      <GameId>SLES-50978</GameId>
+      <GameId>SLPM-67518</GameId>
+      <GameId>SLUS-20393</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Onimusha 3 Demon Siege id#9767">
+    <GameIds>
+      <GameId>SLES-51914</GameId>
+      <GameId>SLKA-25093</GameId>
+      <GameId>SLUS-20694</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Onimusha Warlords id#8780">
+    <GameIds>
+      <GameId>SLES-50247</GameId>
+      <GameId>SLPM-67507</GameId>
+      <GameId>SLUS-20018</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Orphen Scion of Sorcery id#18999">
+    <GameIds>
+      <GameId>SLES-50062</GameId>
+      <GameId>SLUS-20011</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Outrun 2006 Coast 2 Coast id#4809">
+    <GameIds>
+      <GameId>SLES-53998</GameId>
+      <GameId>SLUS-21274</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Phantasy Star Generation 1 id#33571">
+    <GameIds>
+      <GameId>SLPM-62666</GameId>
+    <GameIds>
+  </Config>
+  <Config Name="Phantasy Star Generation 2 id#94108">
+    <GameIds>
+      <GameId>SLPM-62553</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Phantasy Star Universe id#9354">
+    <GameIds>
+      <GameId>SLES-54308</GameId>
+      <GameId>SLPM-66031</GameId>
+      <GameId>SLPM-74244</GameId>
+      <GameId>SLUS-21194</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Project Eden id#12827">
+    <GameIds>
+      <GameId>SLES-50553</GameId>
+      <GameId>SLUS-20164</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Psi-Ops The Mindgate Conspiracy id#9778">
+    <GameIds>
+      <GameId>SLES-52702</GameId>
+      <GameId>SLES-52703</GameId>
+      <GameId>SLPM-66020</GameId>
+      <GameId>SLUS-20688</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="R-Type Final id#5390">
+    <GameIds>
+      <GameId>SCAJ-20029</GameId>
+      <GameId>SCKA-20009</GameId>
+      <GameId>SLES-51952</GameId>
+      <GameId>SLPS-25247</GameId>
+      <GameId>SLPS-73244</GameId>
+      <GameId>SLUS-20780</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Radiata Stories id#13303">
+    <GameIds>
+      <GameId>SCAJ-20118</GameId>
+      <GameId>SLPM-65800</GameId>
+      <GameId>SLUS-21262</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rampage Total Destruction id#4797">
+    <GameIds>
+      <GameId>SLES-53800</GameId>
+      <GameId>SLUS-21323</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Reel Fishing III id#149592">
+    <GameIds>
+      <GameId>SLES-51308</GameId>
+      <GameId>SLUS-20555</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ratchet And Clank id#7797">
+    <GameIds>
+      <GameId>SCAJ-20001</GameId>
+      <GameId>SCES-50916</GameId>
+      <GameId>SCKA-20120</GameId>
+      <GameId>SCPS-15037</GameId>
+      <GameId>SCPS-19211</GameId>
+      <GameId>SCPS-19310</GameId>
+      <GameId>SCPS-19316</GameId>
+      <GameId>SCUS-97199</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Resident Evil Outbreak File #2 id#3947">
+    <GameIds>
+      <GameId>SLES-53319</GameId>
+      <GameId>SLUS-20984</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Resident Evil Outbreak id#3946">
+    <GameIds>
+      <GameId>SCES-50987</GameId>
+      <GameId>SLES-51589</GameId>
+      <GameId>SLUS-20765</GameId>
+      <GameId>SLUS-29089</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Ring Of Red id#16726">
+    <GameIds>
+      <GameId>SLES-50113</GameId>
+      <GameId>SLPM-62013</GameId>
+      <GameId>SLPM-62091</GameId>
+      <GameId>SLUS-20145</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rise Of The Kasai id#9784">
+    <GameIds>
+      <GameId>SCUS-97416</GameId>
+      <GameId>SCUS-97462</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="RLH Run Like Hell id#115134">
+    <GameIds>
+      <GameId>SLES-51345</GameId>
+      <GameId>SLPM-65603</GameId>
+      <GameId>SLUS-20037</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Robot Alchemic Drive id#9787">
+    <GameIds>
+      <GameId>SLUS-20445</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Robotech Battlecry id#5413">
+    <GameIds>
+      <GameId>SLES-51322</GameId>
+      <GameId>SLUS-20244</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rogue Galaxy id#9350">
+    <GameIds>
+      <GameId>SCAJ-20162</GameId>
+      <GameId>SCES-54552</GameId>
+      <GameId>SCPS-15102</GameId>
+      <GameId>SCPS-17013</GameId>
+      <GameId>SCUS-97490</GameId>
+      <GameId>SCUS-97572</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Romancing Saga id#9790">
+    <GameIds>
+      <GameId>SCAJ-20124</GameId>
+      <GameId>SLPM-65920</GameId>
+      <GameId>SLPM-66422</GameId>
+      <GameId>SLUS-21263</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rule Of Rose id#12684">
+    <GameIds>
+      <GameId>SCAJ-20168</GameId>
+      <GameId>SCPS-15093</GameId>
+      <GameId>SLES-54218</GameId>
+      <GameId>SLUS-21448</GameId>
+      <GameId>SLUS-28063</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rumble Roses id#9793">
+    <GameIds>
+      <GameId>SLES-52535</GameId>
+      <GameId>SLPM-65885</GameId>
+      <GameId>SLPM-66085</GameId>
+      <GameId>SLUS-20970</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rune Viking Warlord id#20785">
+    <GameIds>
+      <GameId>SLES-50335</GameId>
+      <GameId>SLES-50336</GameId>
+      <GameId>SLES-50337</GameId>
+      <GameId>SLES-50338</GameId>
+      <GameId>SLES-50339</GameId>
+      <GameId>SLUS-20109</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Rygar The Legendary Adventure id#5417">
+    <GameIds>
+      <GameId>SLES-51445</GameId>
+      <GameId>SLUS-20471</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="S.L.A.I. Steel Lancer Arena International id#11183">
+    <GameIds>
+      <GameId>SLES-52940</GameId>
+      <GameId>SLPM-65791</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Samurai Western id#9802">
+    <GameIds>
+      <GameId>SLES-53234</GameId>
+      <GameId>SLUS-21187</GameId>
+      <GameId>SLUS-28051</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow Hearts Covenant id#12758">
+    <GameIds>
+      <GameId>SLES-82030</GameId>
+      <GameId>SLES-82031</GameId>
+      <GameId>SLUS-21041</GameId>
+      <GameId>SLUS-21044</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow Hearts id#12753">
+    <GameIds>
+      <GameId>SLES-50677</GameId>
+      <GameId>SLES-50822</GameId>
+      <GameId>SLPS-25041</GameId>
+      <GameId>SLPS-73418</GameId>
+      <GameId>SLUS-20347</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow Of Destiny id#12245">
+    <GameIds>
+      <GameId>SLUS-20146</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow of Rome id#17004">
+    <GameIds>
+      <GameId>SLES-52950</GameId>
+      <GameId>SLPM-65883</GameId>
+      <GameId>SLPM-66745</GameId>
+      <GameId>SLUS-20902</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow Of The Colossus id#2240">
+    <GameIds>
+      <GameId>SCAJ-20146</GameId>
+      <GameId>SCAJ-20196</GameId>
+      <GameId>SCES-53326</GameId>
+      <GameId>SCUS-97472</GameId>
+      <GameId>SCUS-97505</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shadow Tower Abyss id#12661">
+    <GameIds>
+      <GameId>SCAJ-20045</GameId>
+      <GameId>SLPS-25217</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Devil Summoner Raidou Kuzunoha Vs. The Soulless Army id#13111">
+    <GameIds>
+      <GameId>SLES-54629</GameId>
+      <GameId>SLUS-21431</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Digital Devil Saga 2 id#12547">
+    <GameIds>
+      <GameId>SLES-54555</GameId>
+      <GameId>SLUS-21152</GameId>
+      <GameId>SLUS-28062</GameId>
+      <GameId>SLPM-65795</GameId>
+      <GameId>SLPM-66373</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Digital Devil Saga id#9329">
+    <GameIds>
+      <GameId>SLES-53458</GameId>
+      <GameId>SLUS-20974</GameId>
+      <GameId>SLUS-28049</GameId>
+      <GameId>SCAJ-20095</GameId>
+      <GameId>SLKA-25300</GameId>
+      <GameId>SLPM-65597</GameId>
+      <GameId>SLPM-66372</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Nocturne id#12344">
+    <GameIds>
+      <GameId>SLUS-20911</GameId>
+      <GameId>SLUS-28045</GameId>
+      <GameId>SLPM-65241</GameId>
+      <GameId>SLPM-65242</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Persona 3 Fes id#9327">
+    <GameIds>
+      <GameId>SLES-55354</GameId>
+      <GameId>SLUS-21621</GameId>
+      <GameId>SLPM-66445</GameId>
+      <GameId>SLPM-66689</GameId>
+      <GameId>SLPM-74277</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shin Megami Tensei Persona 4 id#9328">
+    <GameIds>
+      <GameId>SCKA-20132</GameId>
+      <GameId>SLES-55474</GameId>
+      <GameId>SLUS-21782</GameId>
+      <GameId>SLUS-21782B</GameId>
+      <GameId>SLPM-74278</GameId>
+      <GameId>SLPM-66978</GameId>
+      <GameId>SLPM-74278</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shining Tears id#9808">
+    <GameIds>
+      <GameId>SLAJ-25056</GameId>
+      <GameId>SLPM-65773</GameId>
+      <GameId>SLPM-74218</GameId>
+      <GameId>SLUS-21063</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Shinobi id#4775">
+    <GameIds>
+      <GameId>SCAJ-25002</GameId>
+      <GameId>SCES-51428</GameId>
+      <GameId>SLAJ-25002</GameId>
+      <GameId>SLKA-25021</GameId>
+      <GameId>SLPM-65200</GameId>
+      <GameId>SLPM-74415</GameId>
+      <GameId>SLUS-20459</GameId>
+      <GameId>SLUS-28016</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Silent Hill 2 id#4793">
+    <GameIds>
+      <GameId>SLES-50382</GameId>
+      <GameId>SLPM-65051</GameId>
+      <GameId>SLPM-65631</GameId>
+      <GameId>SLUS-20228</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Silent Hill 3 id#4794">
+    <GameIds>
+      <GameId>SLES-51434</GameId>
+      <GameId>SLPM-65257</GameId>
+      <GameId>SLPM-65622</GameId>
+      <GameId>SLPM-66018</GameId>
+      <GameId>SLUS-20622</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Silent Hill 4 The Room id#5387">
+    <GameIds>
+      <GameId>SLES-52445</GameId>
+      <GameId>SLKA-25149</GameId>
+      <GameId>SLPM-65574</GameId>
+      <GameId>SLUS-20873</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Silpheed The Lost Planet id#31894">
+    <GameIds>
+      <GameId>SLES-50193</GameId>
+      <GameId>SLPM-62015</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Siren id#9336">
+    <GameIds>
+      <GameId>SCAJ-20046</GameId>
+      <GameId>SCAJ-30003</GameId>
+      <GameId>SCKA-20019</GameId>
+      <GameId>SCPS-15053</GameId>
+      <GameId>SCPS-19305</GameId>
+      <GameId>SCPS-19312</GameId>
+      <GameId>SCUS-97355</GameId>
+      <GameId>SCUS-97398</GameId>
+      <GameId>SCES-51920</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Skygunner id#9812">
+    <GameIds>
+      <GameId>SLUS-20384</GameId>
+      <GameId>SCPS-11006</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Sled Storm id#28351">
+    <GameIds>
+      <GameId>SLES-50683</GameId>
+      <GameId>SLUS-20363</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Sly Cooper And The Thievius Raccoonus id#9815">
+    <GameIds>
+      <GameId>SCKA-20004</GameId>
+      <GameId>SCUS-97198</GameId>
+      <GameId>SCUS-97210</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Soul Calibur III id#4788">
+    <GameIds>
+      <GameId>SCAJ-20159</GameId>
+      <GameId>SCES-53312</GameId>
+      <GameId>SCKA-20059</GameId>
+      <GameId>SLPM-61133</GameId>
+      <GameId>SLPS-25577</GameId>
+      <GameId>SLUS-21216</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Soul Reaver 2 id#4787">
+    <GameId>SCPS-55013</GameId>
+    <GameId>SLES-50196</GameId>
+    <GameId>SLPS-25085</GameId>
+    <GameId>SLUS-20165</GameId>
+  </Config>
+  <Config Name="Sphinx And The Cursed Mummy id#13365">
+    <GameIds>
+      <GameId>SLES-51831</GameId>
+      <GameId>SLUS-20482</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Spartan Total Warrior id#20786">
+    <GameIds>
+      <GameId>SLUS-21212</GameId>
+      <GameId>SLES-53393</GameId>
+      <GameId>SLPM-66444</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Spyro Enter The Dragonfly id#9823">
+    <GameIds>
+      <GameId>SLES-51043</GameId>
+      <GameId>SLUS-20315</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="SSX 3 id#3760">
+    <GameIds>
+      <GameId>SLES-51697</GameId>
+      <GameId>SLKA-25200</GameId>
+      <GameId>SLPM-65449</GameId>
+      <GameId>SLPM-65793</GameId>
+      <GameId>SLUS-20772</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="SSX Tricky id#8378">
+    <GameIds>
+      <GameId>SLES-50545</GameId>
+      <GameId>SLPS-25078</GameId>
+      <GameId>SLUS-20326</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Star Ocean Till The End Of Time id#7973">
+    <GameId>SLUS-20488</GameId>
+    <GameId>SLUS-20891</GameId>
+    <GameId>SCAJ-20070</GameId>
+    <GameId>SCPS-55019</GameId>
+    <GameId>SLES-82028</GameId>
+    <GameId>SLES-82029</GameId>
+    <GameId>SLPM-65209</GameId>
+    <GameId>SLPM-65438</GameId>
+    <GameId>SLPM-65439</GameId>
+    <GameId>SLPM-66478</GameId>
+    <GameId>SLPM-66479</GameId>
+  </Config>
+  <Config Name="Star Wars Bounty Hunter id#4782">
+    <GameIds>
+      <GameId>SLES-50831</GameId>
+      <GameId>SLES-50832</GameId>
+      <GameId>SLES-50833</GameId>
+      <GameId>SLES-50834</GameId>
+      <GameId>SLES-50835</GameId>
+      <GameId>SLUS-20420</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Star Wars Racer Revenge id#24555">
+    <GameIds>
+      <GameId>SLES-50366</GameId>
+      <GameId>SLUS-20268</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="State Of Emergency id#9036">
+    <GameIds>
+      <GameId>SLES-50606</GameId>
+      <GameId>SLES-51046</GameId>
+      <GameId>SLUS-20214</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Steambot Chronicles id#10708">
+    <GameIds>
+      <GameId>SLES-54138</GameId>
+      <GameId>SLUS-21344</GameId>
+      <GameId>SLUS-28061</GameId>
+      <GameId>SLUS-29188</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Stella Deus The Gate Of Eternity id#12808">
+    <GameIds>
+      <GameId>SLES-53765</GameId>
+      <GameId>SLUS-21132</GameId>
+      <GameId>SLUS-28050</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Street Fighter Ex3 id#17304">
+    <GameIds>
+      <GameId>SLES-50072</GameId>
+      <GameId>SLPS-20003</GameId>
+      <GameId>SLUS-20130</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Stretch Panic id#25128">
+    <GameIds>
+      <GameId>SLUS-20182</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Suikoden III id#12388">
+    <GameIds>
+      <GameId>SLUS-20387</GameId>
+      <GameId>SLPM-65073</GameId>
+      <GameId>SLPM-65074</GameId>
+      <GameId>SLPM-65305</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Suikoden V id#12394">
+    <GameIds>
+      <GameId>SLES-54087</GameId>
+      <GameId>SLUS-21291</GameId>
+      <GameId>SLPM-66170</GameId>
+      <GameId>SLPM-66286</GameId>
+      <GameId>SLPM-74238</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Summoner 2 id#13117">
+    <GameIds>
+      <GameId>SLES-51141</GameId>
+      <GameId>SLES-51142</GameId>
+      <GameId>SLES-51143</GameId>
+      <GameId>SLUS-20448</GameId>
+      <GameId>SLUS-29029</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Summoner id#12490">
+    <GameIds>
+      <GameId>SLES-82001</GameId>
+      <GameId>SLES-82005</GameId>
+      <GameId>SLUS-20074</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tales Of Legendia id#12453">
+    <GameIds>
+      <GameId>SCAJ-20145</GameId>
+      <GameId>SCKA-20050</GameId>
+      <GameId>SLPS-25533</GameId>
+      <GameId>SLPS-73242</GameId>
+      <GameId>SLUS-21201</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tales Of The Abyss id#13119">
+    <GameIds>
+      <GameId>SCAJ-20163</GameId>
+      <GameId>SLPM-66897</GameId>
+      <GameId>SLPS-25586</GameId>
+      <GameId>SLPS-73252</GameId>
+      <GameId>SLUS-21386</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tekken 5 id#3753">
+    <GameIds>
+      <GameId>SCAJ-20125</GameId>
+      <GameId>SCAJ-20126</GameId>
+      <GameId>SCAJ-20199</GameId>
+      <GameId>SCES-53202</GameId>
+      <GameId>SCKA-20049</GameId>
+      <GameId>SCKA-20081</GameId>
+      <GameId>SLPS-25510</GameId>
+      <GameId>SLPS-73223</GameId>
+      <GameId>SLUS-21059</GameId>
+      <GameId>SLUS-21160</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tekken Tag Tournament id#3770">
+    <GameIds>
+      <GameId>SCED-50041</GameId>
+      <GameId>SCES-50001</GameId>
+      <GameId>SCPS-56002</GameId>
+      <GameId>SLPS-20015</GameId>
+      <GameId>SLPS-73104</GameId>
+      <GameId>SLUS-20001</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tenchu Wrath Of Heaven id#13122">
+    <GameIds>
+      <GameId>SLES-51400</GameId>
+      <GameId>SLES-51401</GameId>
+      <GameId>SLES-51402</GameId>
+      <GameId>SLES-51403</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Bouncer id#5914">
+    <GameIds>
+      <GameId>SLPS-25023</GameId>
+      <GameId>SLUS-20069</GameId>
+      <GameId>SCES-50241</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Getaway id#7449">
+    <GameIds>
+      <GameId>SCES-51159</GameId>
+      <GameId>SCES-51426</GameId>
+      <GameId>SCKA-20018</GameId>
+      <GameId>SCUS-97133</GameId>
+      <GameId>SLPM-65410</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The King Of Fighters 2006 id#7453">
+    <GameIds>
+      <GameId>SLES-54255</GameId>
+      <GameId>SLPS-25609</GameId>
+      <GameId>SLPS-25638</GameId>
+      <GameId>SLPS-25779</GameId>
+      <GameId>SLUS-21365</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Lord Of The Rings The Fellowship Of The Ring id#7454">
+    <GameIds>
+      <GameId>SLES-50988</GameId>
+      <GameId>SLUS-20520</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Lord Of The Rings The Return Of The King id#7455">
+    <GameIds>
+      <GameId>SLES-52017</GameId>
+      <GameId>SLES-52018</GameId>
+      <GameId>SLES-52019</GameId>
+      <GameId>SLES-52020</GameId>
+      <GameId>SLES-52021</GameId>
+      <GameId>SLPM-65503</GameId>
+      <GameId>SLPM-65727</GameId>
+      <GameId>SLUS-20770</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Lord Of The Rings The Third Age id#7456">
+    <GameIds>
+      <GameId>SLES-52801</GameId>
+      <GameId>SLES-52802</GameId>
+      <GameId>SLES-52803</GameId>
+      <GameId>SLES-52804</GameId>
+      <GameId>SLES-52805</GameId>
+      <GameId>SLUS-21027</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Lord Of The Rings The Two Towers id#7457">
+    <GameIds>
+      <GameId>SLES-51252</GameId>
+      <GameId>SLES-51253</GameId>
+      <GameId>SLES-51254</GameId>
+      <GameId>SLES-51255</GameId>
+      <GameId>SLES-51256</GameId>
+      <GameId>SLPM-65212</GameId>
+      <GameId>SLPM-67005</GameId>
+      <GameId>SLPM-67546</GameId>
+      <GameId>SLPS-29003</GameId>
+      <GameId>SLPS-29004</GameId>
+      <GameId>SLUS-20578</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Mark Of Kri id#7458">
+    <GameIds>
+      <GameId>SCES-51164</GameId>
+      <GameId>SCUS-97140</GameId>
+      <GameId>SCUS-97201</GameId>  
+    </GameIds>
+  </Config>
+  <Config Name="The Nightmare Of Druaga Fushigino Dungeon id#7459">
+    <GameIds>
+      <GameId>SLPS-25377</GameId>
+      <GameId>SLUS-21071</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Red Star id#9956">
+    <GameIds>
+      <GameId>SLUS-20885</GameId>
+      <GameId>SLES-54581</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Thing id#5397">
+    <GameIds>
+      <GameId>SLES-50975</GameId>
+      <GameId>SLES-50976</GameId>
+      <GameId>SLUS-20371</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The Warriors id#12509">
+    <GameIds>
+      <GameId>SLES-53443</GameId>
+      <GameId>SLUS-21215</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="The X-Files Resist Or Serve id#4766">
+    <GameIds>
+      <GameId>SLES-52341</GameId>
+      <GameId>SLUS-20179</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Trapt id#12901">
+    <GameIds>
+      <GameId>SLES-53824</GameId>
+      <GameId>SLUS-21255</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Tsugunai Atonement id#13943">
+    <GameIds>
+      <GameId>SLUS-20292</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Twisted Metal Black id#7922">
+    <GameIds>
+      <GameId>SCES-50360</GameId>
+      <GameId>SCUS-97101</GameId>
+      <GameId>SCUS-97164</GameId>
+      <GameId>SCUS-97179</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Twisted Metal Head-On - Extra Twisted Edition id#12336">
+    <GameIds>
+      <GameId>SCUS-97621</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Unlimited Saga id#9835">
+    <GameIds>
+      <GameId>SLAJ-25003</GameId>
+      <GameId>SLES-51606</GameId>
+      <GameId>SLKA-25067</GameId>
+      <GameId>SLPS-25185</GameId>
+      <GameId>SLPS-25199</GameId>
+      <GameId>SLUS-20678</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Urban Chaos Riot Response id#9838">
+    <GameIds>
+      <GameId>SLES-53991</GameId>
+      <GameId>SLPM-66767</GameId>
+      <GameId>SLUS-21390</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Urban Reign id#9836">
+    <GameIds>
+      <GameId>SCAJ-20152</GameId>
+      <GameId>SCES-53688</GameId>
+      <GameId>SLPS-25557</GameId>
+      <GameId>SLUS-21209</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="V-Rally 3 id#122314">
+    <GameIds>
+      <GameId>SCAJ-20008</GameId>
+      <GameId>SLES-50725</GameId>
+      <GameId>SLPM-65191</GameId>
+      <GameId>SLPM-65539</GameId>
+      <GameId>SLUS-20496</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Valkyrie Profile 2 Silmeria id#9330">
+    <GameIds>
+      <GameId>SCAJ-20177</GameId>
+      <GameId>SCAJ-20197</GameId>
+      <GameId>SCKA-20079</GameId>
+      <GameId>SLES-54644</GameId>
+      <GameId>SLES-54645</GameId>
+      <GameId>SLES-54646</GameId>
+      <GameId>SLES-54647</GameId>
+      <GameId>SLES-54648</GameId>
+      <GameId>SLPM-66419</GameId>
+      <GameId>SLPM-66782</GameId>
+      <GameId>SLUS-21452</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Vexx id#9839">
+    <GameIds>
+      <GameId>SLES-50481</GameId>
+      <GameId>SLUS-20383</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Viewtiful Joe id#2775">
+    <GameIds>
+      <GameId>SLES-52678</GameId>
+      <GameId>SLUS-20951</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="War Of The Monsters id#11520">
+    <GameIds>
+      <GameId>SCES-51224</GameId>
+      <GameId>SCUS-97197</GameId>
+      <GameId>SCUS-97260</GameId>
+      <GameId>SLPM-65412</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Way Of The Samurai 2 id#12468">
+    <GameIds>
+      <GameId>SLES-52275</GameId>
+      <GameId>SLUS-20893</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Way Of The Samurai id#12467">
+    <GameIds>
+      <GameId>SLES-50921</GameId>
+      <GameId>SLUS-20407</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Whiplash id#10022">
+    <GameIds>
+      <GameId>SLES-51958</GameId>
+      <GameId>SLUS-20684</GameId>
+      <GameId>SLUS-29080</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wild Arms 3 id#12908">
+    <GameIds>
+      <GameId>SCUS-97203</GameId>
+      <GameId>SCUS-97224</GameId>
+      <GameId>SLES-51307</GameId>
+      <GameId>SCPS-19205</GameId>
+      <GameId>SCPS-15024</GameId>
+      <GameId>SCPS-15023</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wild Arms 4 id#5425">
+    <GameIds>
+      <GameId>SLES-54239</GameId>
+      <GameId>SLUS-21292</GameId>
+      <GameId>SCAJ-20123</GameId>
+      <GameId>SCPS-15091</GameId>
+      <GameId>SCPS-15092</GameId>
+      <GameId>SCPS-19313</GameId>
+      <GameId>SCPS-19322</GameId>
+      <GameId>SCPS-19323</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wild Arms 5 id#12774">
+    <GameIds>
+      <GameId>SLUS-21615</GameId>
+      <GameId>SLES-54972</GameId>
+      <GameId>SCAJ-20183</GameId>
+      <GameId>SCPS-15118</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wild Arms Alter Code F id#12776">
+    <GameIds>
+      <GameId>SCAJ-30002</GameId>
+      <GameId>SCPS-17002</GameId>
+      <GameId>SCPS-19251</GameId>
+      <GameId>SCPS-19253</GameId>
+      <GameId>SLUS-20937</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wipeout Fusion id#8363">
+    <GameIds>
+      <GameId>SCES-50005</GameId>
+      <GameId>SLUS-20462</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Wizardry Tale Of The Forsaken Land id#12246">
+    <GameIds>
+      <GameId>SLES-51118</GameId>
+      <GameId>SLUS-20259</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Xenosaga Episode I Der Wille Zur Macht id#5426">
+    <GameIds>
+      <GameId>SCPS-55901</GameId>
+      <GameId>SLUS-20469</GameId>
+      <GameId>SCAJ-30001</GameId>
+      <GameId>SCPS-55901</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="XGIII Extreme G Racing id#9683">
+    <GameIds>
+      <GameId>SLPM-62092</GameId>
+      <GameId>SLES-50210</GameId>
+      <GameId>SLUS-20302</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="XGRA Extreme G Racing Association id#129397">
+    <GameIds>
+      <GameId>SLES-51636</GameId>
+      <GameId>SLUS-20632</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Yakuza 2 id#3921">
+    <GameIds>
+      <GameId>SLES-55242</GameId>
+      <GameId>SLUS-21769</GameId>
+      <GameId>SLKA-25280</GameId>
+      <GameId>SLKA-25281</GameId>
+      <GameId>SLPM-66602</GameId>
+      <GameId>SLPM-66603</GameId>
+      <GameId>SLPM-74301</GameId>
+    </GameIds>
+  </Config>
+  <Config Name="Yakuza id#8500">
+    <GameIds>
+      <GameId>SLES-54171</GameId>
+      <GameId>SLUS-21348</GameId>
+      <GameId>SLUS-29195</GameId>
+      <GameId>SLKA-25342</GameId>
+      <GameId>SLPM-66168</GameId>
+      <GameId>SLPM-74234</GameId>
+      <GameId>SLPM-74253</GameId>
+    </GameIds>
+  </Config>
+</RemoteConfigs>
