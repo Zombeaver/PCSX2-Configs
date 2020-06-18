@@ -52,4 +52,4 @@ remoteIndexXml.Save(outputStream);
 var result = Encoding.UTF8.GetString(outputStream.ToArray());
 
 // And commit to github
-Task.WaitAll(CommitFile("Zombeaver/PCSX2-Configs", "actions", result));
+Task.WaitAll(CommitFile("Zombeaver/PCSX2-Configs", "master", result));
