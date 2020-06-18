@@ -1,0 +1,19 @@
+//Crimson Sea 2 NTSC-U No Interlacing Patch
+
+//Menu backbuffer sharp
+patch=1,EE,E0040072,extended,00181E55
+patch=1,EE,20181DD8,extended,00000002
+patch=1,EE,20181E00,extended,00000002
+patch=1,EE,20181DE0,extended,00001446
+patch=1,EE,20181E08,extended,00001446
+
+patch=1,EE,E0040079,extended,00181E55
+patch=1,EE,20181DD8,extended,00000003
+patch=1,EE,20181E00,extended,00000003 
+patch=1,EE,20181DE0,extended,00001400
+patch=1,EE,20181E08,extended,00001400
+
+//no interleacing
+patch=1,EE,2010D0EC,extended,64420000
+patch=1,EE,2010D354,extended,64420000
+
