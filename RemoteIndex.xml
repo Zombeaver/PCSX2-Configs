@@ -7,6 +7,8 @@
       <GameId>SLPM-65725</GameId>
       <GameId>SLUS-20751</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round sprite fixes vertical lines in FMVs; very CPU-intensive game, can have some slowdown in intense moments, EE Cycle Rate -2 helps, but don't set to -3 because it will drop frames; same for any EE Cycle Skipping above 0; MTVU has a very weird impact on the game, it seems as though the game runs at half speed with it on, but can then run at 250%+ with the framelimiter off...</Notes>
   </Config>
   <Config Name="18 Wheeler American Pro Trucker id#7238">
     <GameIds>
@@ -15,6 +17,8 @@
       <GameId>SLPM-62211</GameId>
       <GameId>SLUS-20210</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D is too dark, displays normally in GL</Notes>
   </Config>
   <Config Name="Ace Combat 04 Shattered Skies id#9620">
     <GameIds>
@@ -23,6 +27,8 @@
       <GameId>SLPS-73410</GameId>
       <GameId>SLUS-20152</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has quite a few problems in hardware rendering, including missing clouds and the player's plane is black; some slowdown in software mode in external camera view</Notes>
   </Config>
   <Config Name="Ace Combat 5 The Unsung War id#3912">
     <GameIds>
@@ -32,6 +38,8 @@
       <GameId>SLPS-73218</GameId>
       <GameId>SLUS-20851</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slight slowdown in cutscenes - moreso with D3D than GL, so using GL; HPO fixes some blurring around objects; align sprite fixes vertical lines; round sprite fixes horizontal lines in pause screen; using no interlacing patch</Notes>
   </Config>
   <Config Name="Ace Combat Zero The Belkan War id#4422">
     <GameIds>
@@ -41,12 +49,16 @@
       <GameId>SLPS-73250</GameId>
       <GameId>SLUS-21346</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes some blurring around objects; align sprite fixes vertical lines; round sprite fixes horizontal lines in pause screen; using no interlacing patch</Notes>
   </Config>
   <Config Name="AirBlade id#5869">
     <GameIds>
       <GameId>SCES-50246</GameId>
       <GameId>SLUS-20346</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Skipdraw removes really ugly blur/depth of field effect in cutscenes, 1 | 1 removes the blur but then some light sources are visible through walls, so using 1 | 2 to remove the glow</Notes>
   </Config>
   <Config Name="Airforce Delta Strike id#5870">
     <GameIds>
@@ -55,6 +67,8 @@
       <GameId>SLPM-65722</GameId>
       <GameId>SLUS-20703</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines, mostly fixed by TC Offset</Notes>
   </Config>
   <Config Name="Alone in the Dark id#9065">
     <GameIds>
@@ -63,12 +77,16 @@
       <GameId>SLES-55207</GameId>
       <GameId>SLUS-21690</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has major z-fighting (texture flicker) issues, can be corrected by switching to software mode (pressing F9) but software has pretty frequent slowdown</Notes>
   </Config>
   <Config Name="Alone in the Dark The New Nightmare id#17686">
     <GameIds>
       <GameId>SLPM-65085</GameId>
       <GameId>SLES-50185</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Widescreen patch doesn't adjust aspect ratio properly - config set to use 4:3 AR; choose 50hz when starting otherwise it'll use a weird aspect ratio</Notes>
   </Config>
   <Config Name="Alter Echo id#5878">
     <GameIds>
@@ -77,6 +95,8 @@
       <GameId>SLUS-20465</GameId>
       <GameId>SLUS-29056</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some screen effects don't fill screen because of widescreen</Notes>
   </Config>
   <Config Name="Amplitude id#5881">
     <GameIds>
@@ -85,6 +105,8 @@
       <GameId>SCUS-97262</GameId>
       <GameId>SCUS-97292</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Spiky polygons on avatars; no Vsync improves timing; --fullboot required to start correctly; be aware that disabling framelimiter during loading will make it not finish loading correctly because of Async - can use Timestretch but Async feels a lot better; don't disable framelimiter before title screen otherwise the game will hang</Notes>
   </Config>
   <Config Name="Ape Escape 2 id#9625">
     <GameIds>
@@ -97,6 +119,8 @@
       <GameId>SCPS-55035</GameId>
       <GameId>SLUS-20685</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional flickering of distant geometry (imperfect mipmapping), not present in software rendering</Notes>
   </Config>
   <Config Name="Ape Escape 3 id#9626">
     <GameIds>
@@ -108,6 +132,8 @@
       <GameId>SCUS-97501</GameId>
       <GameId>SCUS-97548</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slowdown (like in the theater in Banana Heel); some ghosting in some cutscenes; MTVU causes visual bugs (spiky polygons); game is much more CPU intensive than GPU; MTVU causes graphics corruption</Notes>
   </Config>
   <Config Name="Arc The Lad Twilight Of The Spirits id#9628">
     <GameIds>
@@ -118,6 +144,8 @@
       <GameId>SCUS-97231</GameId>
       <GameId>SCUS-97282</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DOF effect has major issues and is disabled via skipdraw 1 | 1; some occasional ghosting issues which are fixed by Disable Depth Emulation which removes them; Round Sprite=Full + TC Offset fixes the majority of upscaling lines</Notes>
   </Config>
   <Config Name="Armored Core 2 Another Age id#5886">
     <GameIds>
@@ -127,6 +155,8 @@
       <GameId>SLPS-73411</GameId>
       <GameId>SLUS-20249</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines in text (minor)</Notes>
   </Config>
   <Config Name="Armored Core 2 id#5365">
     <GameIds>
@@ -135,6 +165,8 @@
       <GameId>SLPS-73403</GameId>
       <GameId>SLUS-20014</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines in text (minor); the no interlacing patch causes FMVs to jitter, doesn't happen with Bob tff and gameplay looks the same - not using the patch</Notes>
   </Config>
   <Config Name="Armored Core 3 id#5408">
     <GameIds>
@@ -145,6 +177,8 @@
       <GameId>SLPS-73417</GameId>
       <GameId>SLUS-20435</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines in text (minor); might need EE Round Mode set to positive, but haven't in testing</Notes>
   </Config>
   <Config Name="Armored Core Last Raven id#12247">
     <GameIds>
@@ -154,6 +188,8 @@
       <GameId>SLPS-73247</GameId>
       <GameId>SLUS-21338</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing and blur removal patch - unless this is used, Preload Frame Data needs to be enabled if using hardware rendering to prevent black screens during gameplay; Trilinear filtering helps with aliasing in terrain; lighting is wrong in D3D (from less accurate blending mode)</Notes>
   </Config>
   <Config Name="Armored Core Nine Breaker id#95318">
     <GameIds>
@@ -162,12 +198,16 @@
       <GameId>SLPS-25408</GameId>
       <GameId>SLUS-21200</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>In missions game is interlaced which is fixed with Bob tff (makes the game sharper), but this causes all menus to jitter; FXAA has a pretty significant impact on performance and doesn't really do much with the interlacing</Notes>
   </Config>
   <Config Name="Armored Core Silent Line id#12886">
     <GameIds>
       <GameId>SLES-52203</GameId>
       <GameId>SLUS-20644</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines in text (minor), which can be eliminated by setting round sprite to half/full but then the UI jitters from Bob tff, game is missing geometry on some objects unless EE Round Mode is set to Positive</Notes>
   </Config>
   <Config Name="Baldur's Gate Dark Alliance id#5898">
     <GameIds>
@@ -176,6 +216,8 @@
       <GameId>SLPS-25291</GameId>
       <GameId>SLUS-20035</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Extremely system-intensive game, benefits from both Fast Texture Invalidation and Allow 8-bit Textures; EE cycle rate=3 may also help; MTVU seems to actually have a slightly negative impact on performance; reduce to 2x scaling if struggling with performance; D3D performs worse; graphics corruption on FMVs unless large framebuffer is enabled, which has a negative impact on performance (stuttering around fires) so software FMVs enabled with large framebuffer disabled; FXAA degrades software FMV quality a little bit but the rest of the game looks better; TC Offset improves some upscaling lines; tried the no interlacing patch - doesn't seem to make much of a difference other than making the text look awful so it's not used</Notes>
   </Config>
   <Config Name="Baldur's Gate Dark Alliance II id#5899">
     <GameIds>
@@ -184,12 +226,16 @@
       <GameId>SLPM-65845</GameId>
       <GameId>SLUS-20675</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Extremely system-intensive game, benefits from both Fast Texture Invalidation and Allow 8-bit Textures; EE cycle rate=3 may also help; MTVU seems to actually have a slightly negative impact on performance; reduce to 2x scaling if struggling with performance; D3D performs worse; graphics corruption on FMVs unless large framebuffer is enabled, which has a negative impact on performance (stuttering around fires) so software FMVs enabled with large framebuffer disabled; FXAA degrades software FMV quality a little bit but the rest of the game looks better; TC Offset improves some upscaling lines</Notes>
   </Config>
   <Config Name="Barbarian id#9631">
     <GameIds>
       <GameId>SLES-50972</GameId>
       <GameId>SLUS-20136</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA impacts performance at higher scaling</Notes>
   </Config>
   <Config Name="Baroque id#12947">
     <GameIds>
@@ -197,11 +243,15 @@
       <GameId>SLPM-66747</GameId>
       <GameId>SLUS-21714</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Lighting isn't quite right with D3D (bloom/bright)</Notes>
   </Config>
   <Config Name="Battle Assault 3 id#5902">
     <GameIds>
       <GameId>SLUS-20929</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Hardware rendering is slow unless fast texture invalidation is used, which causes dark area on right side of screen; some visual effects don't work correctly in hardware rendering</Notes>
   </Config>
   <Config Name="Battle Engine Aquilla id#12008">
     <GameIds>
@@ -217,6 +267,8 @@
       <GameId>SLPM-66819</GameId>
       <GameId>SLUS-21150</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Frequent z-fighting (flickering) on distant objects</Notes>
   </Config>
   <Config Name="Blood Omen 2 The Legacy Of Kain id#10243">
     <GameIds>
@@ -225,12 +277,15 @@
       <GameId>SLES-50815</GameId>
       <GameId>SLUS-20024</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Blood Will Tell id#12794">
     <GameIds>
       <GameId>SLES-52755</GameId>
       <GameId>SLUS-20782</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Upscaling doesn't work correctly during prologue (first two levels) but does afterwards; D3D doesn't perform as well as GL; medium blending needed for text to be correct color (white, not gray) slowdown at 5x+ upscaling</Notes>
   </Config>
   <Config Name="Bloody Roar 3 id#11912">
     <GameIds>
@@ -239,6 +294,8 @@
       <GameId>SLPM-62133</GameId>
       <GameId>SLUS-20212</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Bloody Roar 4 id#9634">
     <GameIds>
@@ -247,18 +304,23 @@
       <GameId>SLPM-65499</GameId>
       <GameId>SLUS-20795</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Bombastic id#9955">
     <GameIds>
       <GameId>SLES-51966</GameId>
       <GameId>SLUS-20764</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>The game seems to have a slow boot/start time for some reason, it acts as though it's hanging, no issues during play though ; FXAA has a pretty big impact on maximum performance at 6x (about 100%)</Notes>
   </Config>
   <Config Name="Breath of Fire Dragon Quarter id#9636">
     <GameIds>
       <GameId>SLES-51496</GameId>
       <GameId>SLUS-20499</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Character stroke lines aren't quite right with D3D unless Disable Safe Features is set; a few minor upscaling lines, improved by TC Offset; occasionally slows to less than 100% speed at 6x; using no interlacing patch; little bit of interlacing jitter on the map</Notes>
   </Config>
   <Config Name="Bujingai The Forsaken City id#5907">
     <GameIds>
@@ -267,6 +329,8 @@
       <GameId>SCAJ-20056</GameId>
       <GameId>SLES-52495</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset improves a few upscaling lines; using no interlacing patch</Notes>
   </Config>
   <Config Name="Burnout 3 Takedown id#4158">
     <GameIds>
@@ -279,6 +343,8 @@
       <GameId>SLPM-66962</GameId>
       <GameId>SLUS-21050</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Sun is visible through objects (Auto Flush doesn't fix it) and blur looks a little odd in hardware rendering, but otherwise very playable at 3x; higher blending accuracy causes huge slowdown; HPO fixes line in distance</Notes>
   </Config>
   <Config Name="Castlevania Lament Of Innocence id#11966">
     <GameIds>
@@ -289,12 +355,16 @@
       <GameId>SLPM-66325</GameId>
       <GameId>SLUS-20733</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional z-fighting in outdoor areas - some of which can be eliminated by setting texture filtering to nearest, but not all; artifacts (lines) in shadows in D3D unless "Disable Safe Features" is set; EE clamp mode fixes freeze before doppleganger fight; FXAA does have an impact on performance, but still runs at 200% at 5x, disable (PgUp) if needed for speed</Notes>
   </Config>
   <Config Name="Champions Of Norrath id#5923">
     <GameIds>
       <GameId>SLES-52325</GameId>
       <GameId>SLUS-20565</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Benefits from both Fast Texture Invalidation and Allow 8-bit Textures; TC Offset improves some upscaling lines; 4x+ upscaling introduces some additional lines in UI;  tried the no interlacing patch - doesn't seem to make much of a difference other than making the text look awful so it's not used</Notes>
   </Config>
   <Config Name="Champions Return To Arms id#5924">
     <GameIds>
@@ -302,6 +372,8 @@
       <GameId>SLUS-20973</GameId>
       <GameId>SLUS-29126</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Benefits from both Fast Texture Invalidation and Allow 8-bit Textures; TC Offset improves some upscaling lines; 4x+ upscaling introduces some additional lines in UI;  tried the no interlacing patch - doesn't seem to make much of a difference other than making the text look awful so it's not used</Notes>
   </Config>
   <Config Name="Chaos Legion id#12915">
     <GameIds>
@@ -310,6 +382,8 @@
       <GameId>SLPM-65249</GameId>
       <GameId>SLUS-20695</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Summoned legions have squares underneath; VU Clamp mode fixes item menu; align sprite fixes vertical lines; Round Sprite fixes vertical line in the center of the screen during cutscenes, although there's still a slight transparent "seam"; FXAA does have an impact on performance, disable (PgUp) if necessary</Notes>
   </Config>
   <Config Name="Chulip id#5932">
     <GameIds>
@@ -317,6 +391,7 @@
       <GameId>SLPS-20471</GameId>
       <GameId>SLUS-20742</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="City Crisis id#21551">
     <GameIds>
@@ -324,6 +399,7 @@
       <GameId>SLPS-20101</GameId>
       <GameId>SLUS-20274</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Clock Tower 3 id#9644">
     <GameIds>
@@ -333,6 +409,8 @@
       <GameId>SLPM-74416</GameId>
       <GameId>SLUS-20633</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA does have an impact on performance</Notes>
   </Config>
   <Config Name="Cocoto Fighting Master id#129402">
     <GameIds>
@@ -345,12 +423,16 @@
       <GameId>SLES-53158</GameId>
       <GameId>SLUS-21047</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasionally glitching shadows</Notes>
   </Config>
   <Config Name="Contra Shattered Soldier id#5405">
     <GameIds>
       <GameId>SLES-51284</GameId>
       <GameId>SLUS-20306</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset improves some upscaling lines</Notes>
   </Config>
   <Config Name="Crimson Sea 2 id#13064">
     <GameIds>
@@ -360,6 +442,8 @@
       <GameId>SLPM-65477</GameId>
       <GameId>SLUS-20877</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Small amout of jitter in cutscenes (from Bob tff); some characters have line in the middle from TC offset (which removes lines in text and UI); some horizontal lines in the graphical effect that appears when new enemies appear on the radar - only seems to be fixable with software rendering; using no interlacing patch</Notes>
   </Config>
   <Config Name="Crimson Tears id#12821">
     <GameIds>
@@ -367,11 +451,14 @@
       <GameId>SLPM-65575</GameId>
       <GameId>SLUS-20948</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Has bloom misalignment in some areas, half pixel offset and TC Offset correct some of this, but not all; game is interlaced, but Bob modes cause either the UI to jitter or the gameplay; occasional slowdown spikes at 6x</Notes>
   </Config>
   <Config Name="Curse The Eye Of Isis id#30683">
     <GameIds>
       <GameId>SLES-51934</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Cyber Troopers Virtual-On Marz id#31713">
     <GameIds>
@@ -380,11 +467,14 @@
       <GameId>SLPM-74421</GameId>
       <GameId>SLUS-20674</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Dark Angel Vampire Apocalypse id#15210">
     <GameIds>
       <GameId>SLUS-20131</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines, mostly removed by TC Offset; Bob deinterlacing makes inventory and map jitter, switch to Auto if it bothers you</Notes>
   </Config>
   <Config Name="Dark Cloud 2 id#9649">
     <GameIds>
@@ -395,6 +485,8 @@
       <GameId>SCPS-19215</GameId>
       <GameId>SCPS-19306</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round sprite fixes lines in text</Notes>
   </Config>
   <Config Name="Dark Cloud id#7201">
     <GameIds>
@@ -404,18 +496,24 @@
       <GameId>SCUS-97111</GameId>
       <GameId>SCUS-97152</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU negatively impacts performance; FXAA has an impact on performance and isn't very noticeable due to interlacing so it's not used; using no interlacing patch (big improvement because Bob tff isn't really viable because it makes shadows, text boxes etc. jitter)</Notes>
   </Config>
   <Config Name="Dawn Of Mana id#12916">
     <GameIds>
       <GameId>SCKA-20101</GameId>
       <GameId>SLUS-21574</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D has some slowdown; Async in SPU can cause a hang if disabling the framelimiter; TC offset improves bloom alignment - can use HPO: Normal instead but this causes problems with shadows in some areas and texture alignment - TC offset fixes the issue without causing those problems</Notes>
   </Config>
   <Config Name="Dead To Rights id#2313">
     <GameIds>
       <GameId>SLES-51581</GameId>
       <GameId>SLUS-20220</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Def Jam Fight For NY id#7205">
     <GameIds>
@@ -424,12 +522,16 @@
       <GameId>SLUS-21004</GameId>
       <GameId>SLUS-29108</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Minor issues with bloom, improved by HPO; MTVU can cause hangs</Notes>
   </Config>
   <Config Name="Devil Kings id#7210">
     <GameIds>
       <GameId>SLES-53870</GameId>
       <GameId>SLUS-21297</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment; FXAA has about a 50% impact on maximum speed at 6x scaling; using no interlacing + progressive scan patch</Notes>
   </Config>
   <Config Name="Devil May Cry 3 Special Edition id#4930">
     <GameIds>
@@ -442,6 +544,8 @@
       <GameId>SLUS-20964</GameId>
       <GameId>SLUS-21361</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D performs worse than GL; there is slowdown in pause menu with 5x+ upscaling on GL (or at 4x with D3D); EE Round Mode fixes doors not able to be opened on Mission 18; HPO fixes bloom alignment; TC Offset fixes a line in FMVs</Notes>
   </Config>
   <Config Name="Devil May Cry id#15">
     <GameIds>
@@ -456,6 +560,8 @@
       <GameId>SLUS-20216</GameId>
       <GameId>SLUS-29009</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment; upper quarter of the screen has some weird blur/artifacting; slight amount of jitter in backgrounds from Bob tff; no interlacing patch doesn't work consistently - sometimes turns off when picking up some objects/going to the inventory screen - not using it</Notes>
   </Config>
   <Config Name="Dirge Of Cerberus Final Fantasy Vii id#839">
     <GameIds>
@@ -464,24 +570,32 @@
       <GameId>SLPM-66271</GameId>
       <GameId>SLUS-21419</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>GL performs worse than D3D; HPO improves bloom alignment; has occasional slowdown; MTVU provides a very slight speed improvement (about 15%)</Notes>
   </Config>
   <Config Name="Disaster Report id#7214">
     <GameIds>
       <GameId>SLUS-20561</GameId>
       <GameId>SLUS-28025</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Skipdraw removes blur; cursor is missing in dialogue choices, but always starts at the top; relationship menu is blank - both issues can be resolved by temporarily switching to software mode via F9, or permanently setting the renderer to software; TC Offset fixes some upscaling lines</Notes>
   </Config>
   <Config Name="Disgaea 2 Cursed Memories id#7215">
     <GameIds>
       <GameId>SLES-54454</GameId>
       <GameId>SLUS-21397</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using 951555A0.pnach "cheat" to remove blur layer; some jitter in cutscenes from interlacing; Nearest texture filtering improves sprite quality; TC Offset fixes upscaling lines</Notes>
   </Config>
   <Config Name="Disgaea Hour Of Darkness id#7216">
     <GameIds>
       <GameId>SLES-52458</GameId>
       <GameId>SLUS-20666</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Nearest texture filtering improves sprite quality; TC Offset fixes upscaling lines</Notes>
   </Config>
   <Config Name="Dot Hack Infection id#7218">
     <GameIds>
@@ -489,6 +603,8 @@
       <GameId>SLUS-20267</GameId>
       <GameId>SLPS-25121</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment</Notes>
   </Config>
   <Config Name="Dot Hack Mutation id#7219">
     <GameIds>
@@ -496,6 +612,8 @@
       <GameId>SLUS-20562</GameId>
       <GameId>SLPS-25143</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment</Notes>
   </Config>
   <Config Name="Dot Hack Outbreak id#7220">
     <GameIds>
@@ -504,6 +622,8 @@
       <GameId>SLPS-25158</GameId>
       <GameId>SCAJ-20004</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment</Notes>
   </Config>
   <Config Name="Dot Hack Quarantine id#7221">
     <GameIds>
@@ -512,12 +632,16 @@
       <GameId>SLPS-25202</GameId>
       <GameId>SCAJ-20024</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment</Notes>
   </Config>
   <Config Name="Downhill Domination id#21114">
     <GameIds>
       <GameId>SCUS-97177</GameId>
       <GameId>SLES-52202</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Lens (sun) flares are visible through terrain in D3D (works in GL); MTVU causes graphical corruption</Notes>
   </Config>
   <Config Name="Dr. Muto id#7229">
     <GameIds>
@@ -525,6 +649,8 @@
       <GameId>SLUS-20458</GameId>
       <GameId>SLUS-29040</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Slowdown at 6x+ scaling; DSF fixes lines in shadows in D3D</Notes>
   </Config>
   <Config Name="Dragon Quest VIII Journey Of The Cursed King id#7226">
     <GameIds>
@@ -532,6 +658,8 @@
       <GameId>SLUS-21207</GameId>
       <GameId>SLUS-29157</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO (mostly) fixes black lines at the bottom and right of the screen, using Normal (Vertex) clears it out more but it also creates lines in certain textures, like water; can increase TC Offset X to completely remove the black lines but this creates lines elsewhere, like in menus; Round Sprite fixes lines in text (and Full improves the black lines too); DSF fixes ugly outline effect in GL (looks normal in D3D without it); lens flares are visible through walls in D3D (work correctly in GL); may need to use Software mode (F9) in Dark Realm to see Empyria's Shadow (unconfirmed)</Notes>
   </Config>
   <Config Name="Drakan The Ancients' Gates id#7227">
     <GameIds>
@@ -539,18 +667,24 @@
       <GameId>SCUS-97128</GameId>
       <GameId>SCUS-97169</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset improves upscaling lines; lens flares are visible through objects in D3D</Notes>
   </Config>
   <Config Name="Drakengard id#7228">
     <GameIds>
       <GameId>SLES-52322</GameId>
       <GameId>SLUS-20732</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Bob tff causes small amout of jitter in cutscenes, but gameplay is sharper; Merge Sprite fixes lines in level completion screens; using no interlacing patch</Notes>
   </Config>
   <Config Name="Echo Night Beyond id#12412">
     <GameIds>
       <GameId>SLES-53414</GameId>
       <GameId>SLUS-20928</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>No longer has rendering issues in hardware, but has severe slowdown at times; widescreen hack causes graphical issues (black spiky polygons) and is disabled - widescreen mode can be enabled in-game, but will need to change screen size setting to 16:9 in PCSX2</Notes>
   </Config>
   <Config Name="Eoe Eve Of Extinction id#7245">
     <GameIds>
@@ -558,11 +692,15 @@
       <GameId>SCPS-55025</GameId>
       <GameId>SLES-50758</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>One vertical line in pause screen (minor)</Notes>
   </Config>
   <Config Name="Espgaluda id#30544">
     <GameIds>
       <GameId>SLPS-25352</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Software renderer avoids graphics problems and upscaling is pointless since the game is entirely sprite-based; not using any texture filtering so image is sharper</Notes>
   </Config>
   <Config Name="Eternal Ring id#12639">
     <GameIds>
@@ -570,12 +708,15 @@
       <GameId>SLPS-25001</GameId>
       <GameId>SLUS-20015</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Everblue 2 id#7246">
     <GameIds>
       <GameId>SLUS-20598</GameId>
       <GameId>SLES-51381</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Has some slowdown at 6x scaling; using a patch to fix an issue where the edges of the screen aren't drawn when they should be, and unload earlier than they should, creating empty space where there shouldn't be - this is not the result of the widescreen patch as the issue persists even without it, tried all EE/IOP and VU options, no change - no issues with the patch; DSF is needed to fix lines in some textures - not needed in GL; D3D performs significantly better than GL (about 50% higher max speed)</Notes>
   </Config>
   <Config Name="EverGrace id#9656">
     <GameIds>
@@ -583,6 +724,8 @@
       <GameId>SLUS-20016</GameId>
       <GameId>SLES-50050</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset improves some upscaling lines</Notes>
   </Config>
   <Config Name="Extermination id#12924">
     <GameIds>
@@ -592,6 +735,8 @@
       <GameId>SCUS-97112</GameId>
       <GameId>SCUS-97160</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes blur/depth of field alignment; Half Pixel Offset: Normal also fixes this but makes a thin lined box appear around the character until you refresh the screen (like by pressing F9 twice) - the TC Offset resolves the issue without creating the box; FMVs don't appear in HW renderers; FMVs look a bit worse because of FXAA but the rest of the game looks better; Software FMV hack isn't entirely stable in D3D (can cause hangs) so using GL; using no interlacing patch (big improvement because Bob deinterlacing causes some occasional jitter in depth of field effects)</Notes>
   </Config>
   <Config Name="Fantavision id#9687">
     <GameIds>
@@ -600,6 +745,8 @@
       <GameId>SCPS-15030</GameId>
       <GameId>SCUS-97105</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA has an impact on performance; using no interlacing patch</Notes>
   </Config>
   <Config Name="Fatal Frame id#7250">
     <GameIds>
@@ -608,6 +755,8 @@
       <GameId>SLPS-73255</GameId>
       <GameId>SLUS-20388</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Align Sprite fixes vertical lines in some graphical effects; DSF fixes lines in photos; every once in a while the previously taken photo will flash on screen when first pulling out the camera; OPH Flag Hack hangs the game at the first FMV</Notes>
   </Config>
   <Config Name="Fatal Frame II Crimson Butterfly id#7251">
     <GameIds>
@@ -618,12 +767,16 @@
       <GameId>SLPS-73256</GameId>
       <GameId>SLPS-73257</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes lines in certain frames; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Fatal Frame III The Tormented id#7252">
     <GameIds>
       <GameId>SLPS-73257</GameId>
       <GameId>SLUS-21244</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes lines in certain frames; MTVU causes graphics corruption (blank textures)</Notes>
   </Config>
   <Config Name="Final Fantasy X id#20">
     <GameIds>
@@ -639,6 +792,8 @@
       <GameId>SLPS-72501</GameId>
       <GameId>SLUS-20312</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines in text/UI, mostly resolved by Round Sprite and TC Offset; lines appear in character's faces at TC Offset Y: 200+; skipdraw removes buggy depth of field</Notes>
   </Config>
   <Config Name="Final Fantasy XII id#87">
     <GameIds>
@@ -654,18 +809,24 @@
       <GameId>SLUS-21475</GameId>
       <GameId>SLUS-29171</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC offset is to minimize garbage around FMVs</Notes>
   </Config>
   <Config Name="Fireblade id#7260">
     <GameIds>
       <GameId>SLES-50716</GameId>
       <GameId>SLES-50995</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU negatively impacts performance; has some occasional slowdown</Notes>
   </Config>
   <Config Name="Flipnic Ultimate Pinball id#7263">
     <GameIds>
       <GameId>SLUS-21157</GameId>
       <GameId>SLUS-29149</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Disabled vsync to help reduce latency; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Forbidden Siren 2 id#17692">
     <GameIds>
@@ -676,11 +837,15 @@
       <GameId>SCPS-19326</GameId>
       <GameId>SCES-53851</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA is diabled because of software FMVs; Merge Sprite fixes vertical lines; Software FMV hack isn't entirely stable in D3D (can cause hangs) so using GL; FXAA does have an impact on performance</Notes>
   </Config>
   <Config Name="Forever Kingdom id#12780">
     <GameIds>
       <GameId>SLUS-20343</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Missing some graphical elements with HW renderer</Notes>
   </Config>
   <Config Name="Forgotten Realms Demon Stone id#7265">
     <GameIds>
@@ -689,6 +854,8 @@
       <GameId>SLPM-65927</GameId>
       <GameId>SLUS-20804</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Some effects (fire/smoke) flicker in HW render; some occasional slowdown</Notes>
   </Config>
   <Config Name="Frequency id#7266">
     <GameIds>
@@ -696,6 +863,8 @@
       <GameId>SCUS-97125</GameId>
       <GameId>SCUS-97157</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Turning off vsync makes timing easier</Notes>
   </Config>
   <Config Name="Front Mission 4 id#7268">
     <GameIds>
@@ -704,12 +873,16 @@
       <GameId>SLPM-66420</GameId>
       <GameId>SLUS-20888</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Shadows are messed up with hardware rendering</Notes>
   </Config>
   <Config Name="Galerians Ash id#13855">
     <GameIds>
       <GameId>SLES-51343</GameId>
       <GameId>SLUS-20560</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has missing graphics and screen flashes colors in HW rendering</Notes>
   </Config>
   <Config Name="Gauntlet Dark Legacy id#7274">
     <GameIds>
@@ -717,12 +890,15 @@
       <GameId>SLPM-62125</GameId>
       <GameId>SLUS-20047</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D has some slowdown; some upscaling lines in text, improved by TC Offset</Notes>
   </Config>
   <Config Name="Gauntlet Seven Sorrows id#7275">
     <GameIds>
       <GameId>SLES-53667</GameId>
       <GameId>SLUS-21077</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Ghosthunter id#7278">
     <GameIds>
@@ -730,17 +906,23 @@
       <GameId>SCES-52156</GameId>
       <GameId>SLUS-20993</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game has some occasional slowdown during certain effects at 4x+ (like when the first ghost appears and takes Jones); the audio has some very slight "pops" on occasion which aren't from slowdown, I tried alternate sync modes, alternate interpolation modes, and alternate output modules - none of them seemed to completely remedy the problem; Async mode is to help deal with some occasional slight blips in speed in heavy scenes</Notes>
   </Config>
   <Config Name="Glass Rose id#30686">
     <GameIds>
       <GameId>SLES-52358</GameId>
       <GameId>SLPM-65373</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Select 60hz mode; character model is invisible in hardware rendering</Notes>
   </Config>
   <Config Name="Global Defence Force id#15133">
     <GameIds>
       <GameId>SLES-54464</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Skipdraw disables horizontal lines around objects; game has slowdown internally, even when emulation is running at 100% speed; bloom alignment issues on some levels; worse performance with GL; 8-bit textures improve performance; TC Offset improves some upscaling lines and bloom alignment</Notes>
   </Config>
   <Config Name="God Hand id#25">
     <GameIds>
@@ -750,6 +932,8 @@
       <GameId>SLPM-74241</GameId>
       <GameId>SLUS-21503</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional z-fighting; merge sprite fixes bluriness; wild arms offset fixes artifacts in cutscenes; slowdown at 5x+ upscaling; using no interlacing patch - doesn't jitter without it, but it cleans up the backbuffer a lot and makes it look sharper and brighter</Notes>
   </Config>
   <Config Name="God Of War id#26">
     <GameIds>
@@ -764,6 +948,8 @@
       <GameId>SLPM-67011</GameId>
       <GameId>SLPM-67012</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Fairly system-heavy game; large framebuffer on negatively impacts performance; occasional very brief dips below 60 fps which are pretty negligible with Async mode, set to 3x scaling if it's an issue or performance in general is poor; some missing graphical effects with D3D (fog)</Notes>
   </Config>
   <Config Name="Gradius V id#9604">
     <GameIds>
@@ -773,6 +959,8 @@
       <GameId>SLPM-62621</GameId>
       <GameId>SLUS-20712</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA does have an impact on performance, but still runs at 250%+ with it on</Notes>
   </Config>
   <Config Name="Grand Theft Auto III id#4165">
     <GameIds>
@@ -783,6 +971,8 @@
       <GameId>SLPM-66789</GameId>
       <GameId>SLUS-20062</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional flickering (z-fighting) on distant textures (minor)</Notes>
   </Config>
   <Config Name="Grand Theft Auto Vice City id#4166">
     <GameIds>
@@ -794,6 +984,8 @@
       <GameId>SLPM-66790</GameId>
       <GameId>SLUS-20552</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game is a bit blurry, but it's from the in-game effect "Trails" which can be disabled in the in-game display options - that alters the appearance quite a bit though</Notes>
   </Config>
   <Config Name="Grandia III id#12761">
     <GameIds>
@@ -803,12 +995,16 @@
       <GameId>SLUS-21334</GameId>
       <GameId>SLUS-21345</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional bloom alignment issues; "safe features" creates some small lines on character faces in D3D (not present in GL); title screen doesn't look quite right because of widescreen hack; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Gregory Horror Show id#29918">
     <GameIds>
       <GameId>SLES-51933</GameId>
       <GameId>SLKA-25033</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has audio skipping/repeating issues; FXAA has an impact on performance; some upscaling lines in text, not remedied by round sprite and TC offset just makes them worse; the no interlacing patch for this game causes FMVs to jitter whereas they don't with Bob tff deinterlacing and the difference during gameplay is negligible - not using it</Notes>
   </Config>
   <Config Name="Gun id#8377">
     <GameIds>
@@ -816,12 +1012,16 @@
       <GameId>SLES-53647</GameId>
       <GameId>SLUS-21139</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU causes the game to hang; GL has weird color banding issues if Blending Accuracy is above None (doesn't happen in D3D); TC Offset fixes bloom alignment; D3D needs DSF to prevent lines in shadows, but this causes weird image flashing (like it does in Radiata Stories) - DSF isn't needed in GL; has some occasional slowdown at 4x+</Notes>
   </Config>
   <Config Name="Gungrave Overdose id#10245">
     <GameIds>
       <GameId>SLES-52941</GameId>
       <GameId>SLUS-21020</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round sprite + TC Offset fixes most upscaling lines in text and fixes garbage in FMVs from hardware rendering; text in text boxes extend beyond the box (from widescreen hack); some slowdown at 6x+ upscaling; disabling large framebuffer significantly improves performance</Notes>
   </Config>
   <Config Name="Hard Hitter Tennis id#13972">
     <GameIds>
@@ -830,12 +1030,16 @@
       <GameId>SLPS-20270</GameId>
       <GameId>SLUS-20568</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slowdown at 6x scaling</Notes>
   </Config>
   <Config Name="Haunting Ground id#9710">
     <GameIds>
       <GameId>SLES-52877</GameId>
       <GameId>SLUS-21075</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Lighting / shadows don't work correctly in D3D; TC Offset fixes bloom alignment, can use HPO: Normal instead, but this creates lines in some textures and menus</Notes>
   </Config>
   <Config Name="Haven Call Of The King id#7294">
     <GameIds>
@@ -846,6 +1050,8 @@
       <GameId>SLUS-28019</GameId>
       <GameId>SLUS-29038</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Blending accuracy has to be set to high for shadows to display properly; GL performs a little better than D3D in general, but GL has brief performance drop spikes not present in D3D; Align Sprite fixes some lines in shadows; TC Offset improves bloom/DOF alignment, although it does create two small lines in the menu (very minor)</Notes>
   </Config>
   <Config Name="Herdy Gerdy id#7972">
     <GameIds>
@@ -853,6 +1059,8 @@
       <GameId>SLES-50751</GameId>
       <GameId>SLUS-20231</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Widescreen hack cuts off some of the screen and impacts performance - disabled and running in 4:3; D3D has performance problems</Notes>
   </Config>
   <Config Name="Hunter The Reckoning Wayward id#17005">
     <GameIds>
@@ -860,6 +1068,8 @@
       <GameId>SLUS-20511</GameId>
       <GameId>SLUS-29059</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Fog doesn't render correctly in D3D; FXAA has an impact on performance at 6x+</Notes>
   </Config>
   <Config Name="Ico id#2239">
     <GameIds>
@@ -874,12 +1084,15 @@
       <GameId>SCUS-97113</GameId>
       <GameId>SCUS-97159</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some minor visual bugs in some cutscenes; 4x scaling causes major slowdown in some cutscenes, still some occasional slowdown at 3x, but less; D3D has some additional visual bugs; using no interlacing patch</Notes>
   </Config>
   <Config Name="Jade Cocoon 2 id#12897">
     <GameIds>
       <GameId>SLES-50735</GameId>
       <GameId>SLUS-20309</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Jak II id#4867">
     <GameIds>
@@ -888,12 +1101,16 @@
       <GameId>SCUS-97265</GameId>
       <GameId>SCUS-97509</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>--fullboot required otherwise the game will start in Japanese; D3D has problems with shadows; MTVU and EE Cycle Rate improve performance; don't use EE Cycle Rate -2 (it drops/skips frames); occasionally a small amount of slowdown, more at 4x scaling; may need to switch to a D3D renderer in the weapons lab (unconfirmed)</Notes>
   </Config>
   <Config Name="Jaws Unleashed id#5363">
     <GameIds>
       <GameId>SLES-54170</GameId>
       <GameId>SLUS-21062</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slowdown at 6x+ scaling</Notes>
   </Config>
   <Config Name="Killer7 id#7323">
     <GameIds>
@@ -902,12 +1119,15 @@
       <GameId>SLPM-66744</GameId>
       <GameId>SLUS-21154</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Kinetica id#25238">
     <GameIds>
       <GameId>SCUS-97132</GameId>
       <GameId>SCUS-97161</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA has an impact on performance at 6x+</Notes>
   </Config>
   <Config Name="Kingdom Hearts id#2559">
     <GameIds>
@@ -926,6 +1146,8 @@
       <GameId>SLPS-25198</GameId>
       <GameId>SLUS-20370</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines in text/UI (minor)</Notes>
   </Config>
   <Config Name="King's Field The Ancient City id#12658">
     <GameIds>
@@ -934,6 +1156,8 @@
       <GameId>SLUS-20318</GameId>
       <GameId>SLUS-20353</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Lines in sky and missing lava in hardware rendering; skipdraw 1 | 1 can be used to remove blur in hardware rendering</Notes>
   </Config>
   <Config Name="Kuon id#7331">
     <GameIds>
@@ -942,6 +1166,8 @@
       <GameId>SLPS-25329</GameId>
       <GameId>SLUS-21007</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes bloom alignment; FXAA has an impact on performance at 6x+</Notes>
   </Config>
   <Config Name="Kya Dark Lineage id#7332">
     <GameIds>
@@ -949,6 +1175,8 @@
       <GameId>SLUS-20440</GameId>
       <GameId>SLUS-28037</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Preload Frame Data fixes sun from displaying garbage textures; sun glare is visible through objects - not a huge deal; this can be fixed in one of two ways - either by enabling Auto Flush - which completely fixes it with no other visual side effects, however this has a massive impact on performance, so much so that it's not being used (but if your hardware can handle it without slowdown, use it, and the game should be basically perfect), alternately you can set skipdraw to 1 | 5 but this removes shadows, some fog, and lens flares (and causes some other occasional issues like white shadows when near some objects); HPO fixes line in distance; no issues in software; FMV is interlaced; FMVs flicker in hardware rendering so the Software FMV hack is used, can also be resolved by enabling large framebuffer but this negatively impacts performance; Async in SPU can cause a crash if the framelimiter is disabled; some occasional slowdown</Notes>
   </Config>
   <Config Name="Legaia 2 Duel Saga id#7334">
     <GameIds>
@@ -956,36 +1184,48 @@
       <GameId>SLES-50891</GameId>
       <GameId>SLUS-20414</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom alignment; Round Sprite fixes upscaling lines in text; using no interlacing patch</Notes>
   </Config>
   <Config Name="Legend Of Kay id#7336">
     <GameIds>
       <GameId>SLES-52931</GameId>
       <GameId>SLUS-21248</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>superVU VU1 setting fixes trees (which are just displayed as triangles with microVU); some texture flickering (z-fighting); some object disappear at certain angles (ropes, distant objects), even in software mode; some lines in text (minor), improved by Round Sprite: Full</Notes>
   </Config>
   <Config Name="Magna Carta Tears Of Blood id#7350">
     <GameIds>
       <GameId>SLES-53483</GameId>
       <GameId>SLUS-21221</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines - mostly removed by TC Offset; moments where the screen is supposed to freeze and then blur (like after Calintz wakes up in the beginning) don't blur correctly, and freeze the image in focus with a black background, tried all video hacks (and GL) to no avail; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Manhunt id#4815">
     <GameIds>
       <GameId>SLES-52023</GameId>
       <GameId>SLUS-20827</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Auto Flush + HPO fixes light through walls, but Auto flush has a pretty significant impact on performance at times (can drop to about 80%~ speed on occasion at 4x), so using 3x scaling (still looks good when combined with FXAA); EE cycle rate fixes hang when entering crane</Notes>
   </Config>
   <Config Name="Maximo Ghosts To Glory id#7358">
     <GameIds>
       <GameId>SLPM-74004</GameId>
       <GameId>SLUS-20017</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Maximo Vs. Army Of Zin id#8773">
     <GameIds>
       <GameId>SLES-51759</GameId>
       <GameId>SLUS-20722</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes puppet lines in shadows with D3D; fog doesn't render correctly in D3D; HPO fixes white outlines around trees; FXAA does have an impact on performance at higher scaling; using no interlacing patch</Notes>
   </Config>
   <Config Name="Metal Arms Glitch In The System id#7366">
     <GameIds>
@@ -993,6 +1233,8 @@
       <GameId>SLUS-20786</GameId>
       <GameId>SLUS-29081</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>mVU causes visual bugs (polygon freakouts); MTVU provides significant performance boost</Notes>
   </Config>
   <Config Name="Metal Gear Solid 2 Substance id#7367">
     <GameIds>
@@ -1012,6 +1254,8 @@
       <GameId>SLUS-20144</GameId>
       <GameId>SLUS-20543</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>GL performs better than D3D; Async breaks</Notes>
   </Config>
   <Config Name="Metal Gear Solid 3 Subsistence id#6378">
     <GameIds>
@@ -1046,6 +1290,8 @@
       <GameId>SLES-82024</GameId>
       <GameId>SLES-82013</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slowdown in cutscenes; performance is slightly worse with D3D; HPO fixes bloom alignment; EE cycle rate improves performance</Notes>
   </Config>
   <Config Name="Metal Saga id#5375">
     <GameIds>
@@ -1053,18 +1299,23 @@
       <GameId>SLPM-74226</GameId>
       <GameId>SLUS-21293</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Michigan Report From Hell id#14594">
     <GameIds>
       <GameId>SLES-53073</GameId>
       <GameId>SLPM-65480</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Select 60hz mode; benefits greatly from MTVU</Notes>
   </Config>
   <Config Name="Midnight Club 3 Dub Edition Remix id#24524">
     <GameIds>
       <GameId>SLES-53717</GameId>
       <GameId>SLUS-21355</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Half-screen Fix fixes headlight ghosting</Notes>
   </Config>
   <Config Name="Monster Hunter id#13102">
     <GameIds>
@@ -1074,12 +1325,16 @@
       <GameId>SLUS-20896</GameId>
       <GameId>SLUS-29110</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round Sprite fixes some upscaling lines; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="Monster Lab id#123358">
     <GameIds>
       <GameId>SLES-55169</GameId>
       <GameId>SLUS-21838</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Unplayable in hardware mode (frozen graphics), OPH Flag Hack doesn't fix it</Notes>
   </Config>
   <Config Name="Mortal Kombat Armageddon id#4223">
     <GameIds>
@@ -1087,6 +1342,8 @@
       <GameId>SLUS-21410</GameId>
       <GameId>SLUS-21543</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes upscaling lines in text</Notes>
   </Config>
   <Config Name="Mortal Kombat Deception id#4817">
     <GameIds>
@@ -1096,6 +1353,8 @@
       <GameId>SLUS-21081</GameId>
       <GameId>SLUS-21101</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes upscaling lines in text</Notes>
   </Config>
   <Config Name="Mortal Kombat Shaolin Monks id#5388">
     <GameIds>
@@ -1103,12 +1362,16 @@
       <GameId>SLES-53525</GameId>
       <GameId>SLUS-21087</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some jitter on a few screens (minor) and some upscaling lines on title screen, mitigated a bit by the TC Offset (minor); GL performs worse than D3D; FXAA has an impact on performance</Notes>
   </Config>
   <Config Name="MotoGP 08 id#125703">
     <GameIds>
       <GameId>SLES-55266</GameId>
       <GameId>SLUS-21811</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some lines in text/menus (minor), improved by TC Offset</Notes>
   </Config>
   <Config Name="Nanobreaker id#7400">
     <GameIds>
@@ -1117,6 +1380,7 @@
       <GameId>SLPM-65809</GameId>
       <GameId>SLUS-21010</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Need For Speed Underground id#5396">
     <GameIds>
@@ -1125,6 +1389,8 @@
       <GameId>SLUS-20811</GameId>
       <GameId>SLUS-29073</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Has some slowdown above 4x</Notes>
   </Config>
   <Config Name="Neo Contra id#7427">
     <GameIds>
@@ -1134,12 +1400,16 @@
       <GameId>SLPM-65990</GameId>
       <GameId>SLUS-20961</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Some occasional graphical corruption - water on level 1, glass in intro of level 2</Notes>
   </Config>
   <Config Name="Nightshade id#7442">
     <GameIds>
       <GameId>SLES-52238</GameId>
       <GameId>SLUS-20810</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional slowdown, especially at 4x+; GL performs worse than D3D; TC Offset improves some upscaling lines in UI; Aggressive CRC improves performance; sound effects can break if you disable the framelimiter due to Async, but Async is recommended due to occasional blips in performance; using no interlacing patch</Notes>
   </Config>
   <Config Name="Obscure id#9070">
     <GameIds>
@@ -1149,6 +1419,8 @@
       <GameId>SLES-53322</GameId>
       <GameId>SLUS-20777</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Significant texture flickering (z-fighting) with hardware rendering</Notes>
   </Config>
   <Config Name="Obscure II The Aftermath id#9069">
     <GameIds>
@@ -1156,6 +1428,8 @@
       <GameId>SLES-54782</GameId>
       <GameId>SLUS-21709</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Significant texture flickering (z-fighting) with hardware rendering</Notes>
   </Config>
   <Config Name="Odin Sphere id#9326">
     <GameIds>
@@ -1166,11 +1440,15 @@
       <GameId>SLUS-21577</GameId>
       <GameId>SLUS-28065</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round sprite fixes upscaling lines</Notes>
   </Config>
   <Config Name="Okage Shadow King id#12903">
     <GameIds>
       <GameId>SCUS-97129</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Game has slowdown at times (like in Tenel) due to blending accuracy - significant speed increase by setting it to none but then you get messed up shadows (which you seemingly can't disable via skipdraw); slowdown is worse/more frequent at higher scaling, but seems to be basically the same from 2-4x; shadows don't work correctly in D3D; skipdraw removes buggy depth of field; polygons sometimes appear somewhat buggy (flickering) - this is true even in software mode; using no interlacing patch</Notes>
   </Config>
   <Config Name="Okami id#51">
     <GameIds>
@@ -1178,6 +1456,8 @@
       <GameId>SLPM-74239</GameId>
       <GameId>SLUS-21115</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game is blurry due to post processing but this is accurate/part of the game - switch to software with F9 for comparison; post processing can be eliminated by setting CRC level to Aggressive - this eliminates certain graphical elements however and changes the art style significantly; HPO fixes bloom alignment</Notes>
   </Config>
   <Config Name="Oni id#9765">
     <GameIds>
@@ -1188,6 +1468,8 @@
       <GameId>SLES-50179</GameId>
       <GameId>SLUS-20064</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Extreme slowdown on title screen and level title screens, but normal during gameplay</Notes>
   </Config>
   <Config Name="Onimusha 2 Samurai's Destiny id#9766">
     <GameIds>
@@ -1195,6 +1477,8 @@
       <GameId>SLPM-67518</GameId>
       <GameId>SLUS-20393</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round Sprite + TC Offset fix the majority of upscaling lines; using no interlacing patch, can sometimes have a bit of jitter when loading a cutscene</Notes>
   </Config>
   <Config Name="Onimusha 3 Demon Siege id#9767">
     <GameIds>
@@ -1202,6 +1486,8 @@
       <GameId>SLKA-25093</GameId>
       <GameId>SLUS-20694</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes bloom/blur alignment; Round Sprite fixes gaps between sprites in menus (this causes jitter if using Bob tff but works fine with the no interlacing patch); using no interlacing patch</Notes>
   </Config>
   <Config Name="Onimusha Warlords id#8780">
     <GameIds>
@@ -1209,28 +1495,38 @@
       <GameId>SLPM-67507</GameId>
       <GameId>SLUS-20018</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game is interlaced - Bob tff is sharper but this makes all backgrounds have intermittent jitter; FXAA doesn't have an impact on performance but has little to no discernable impact on visual fidelity because of Blend deinterlacing; TC offset fixes upscaling lines in text (can alternatively use Round Sprite, but it doesn't do quite as good/clean of a job)</Notes>
   </Config>
   <Config Name="Orphen Scion of Sorcery id#18999">
     <GameIds>
       <GameId>SLES-50062</GameId>
       <GameId>SLUS-20011</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Outrun 2006 Coast 2 Coast id#4809">
     <GameIds>
       <GameId>SLES-53998</GameId>
       <GameId>SLUS-21274</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Car selection screen (after choosing course) doesn't display properly in hardware rendering - press f9 to select car and then f9 again once complete; the game has intermittent slowdown, improved by cycle rate and MTVU; bloom is slightly misaligned, can be removed with skipdraw 1 | 2 although this makes the sun act somewhat strangely (flicker) so if you do that I'd recommend changing it to 1 | 4 instead (which completely disables the sun); radius line visible in some areas like tunnels, which can be removed with skipdraw (any) or with HPO: Special (but that messes up bloom alignment more); thick fog isn't as transparent as it should be; car shadows aren't quite right (swap to software rendering for comparison); TC Offset improves bloom alignment and water textures, but does create a few lines in the text/UI - can use Round Sprite: Full for perfect text but worse bloom/water and you can't have it both ways, because using TC Offset + Round Sprite really messes up textures in the UI, the current settings are preferable in my opinion; alternate settings to the current ones would likely be Round Sprite: Full + HPO: Special with no TC Offset (worse bloom, worse water texture, no lines in text/UI, no radius line)</Notes>
   </Config>
   <Config Name="Phantasy Star Generation 1 id#33571">
     <GameIds>
       <GameId>SLPM-62666</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines; using no interlacing patch</Notes>
   </Config>
   <Config Name="Phantasy Star Generation 2 id#94108">
     <GameIds>
       <GameId>SLPM-62553</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines; using no interlacing patch</Notes>
   </Config>
   <Config Name="Phantasy Star Universe id#9354">
     <GameIds>
@@ -1239,12 +1535,16 @@
       <GameId>SLPM-74244</GameId>
       <GameId>SLUS-21194</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Widescreen patch causes visual bugs (sporadic erroneous textures fill parts of the screen) - disabled in config; FXAA does have an impact on performance but still runs at 250%+ at 5x</Notes>
   </Config>
   <Config Name="Project Eden id#12827">
     <GameIds>
       <GameId>SLES-50553</GameId>
       <GameId>SLUS-20164</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes screen blur</Notes>
   </Config>
   <Config Name="Psi-Ops The Mindgate Conspiracy id#9778">
     <GameIds>
@@ -1253,6 +1553,8 @@
       <GameId>SLPM-66020</GameId>
       <GameId>SLUS-20688</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Skipdraw removes weird green layer; using no interlacing patch</Notes>
   </Config>
   <Config Name="R-Type Final id#5390">
     <GameIds>
@@ -1263,6 +1565,8 @@
       <GameId>SLPS-73244</GameId>
       <GameId>SLUS-20780</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA has an impact on performance, but still runs at 200%+ at 5x</Notes>
   </Config>
   <Config Name="Radiata Stories id#13303">
     <GameIds>
@@ -1270,18 +1574,24 @@
       <GameId>SLPM-65800</GameId>
       <GameId>SLUS-21262</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Frame Buffer Conversion fixes issues with ugly depth of field effect; HPO fixes bloom alignment; Allow 8-bit textures improves performance; CRC level of full improves performance over partial; "Disable Safe features" is needed to remove lines in some transitions (like the one before the title screen) in D3D, but doesn't play nicely with HPO (causes strange image flashing randomly), so using GL without that hack instead (which doesn't have the lines)</Notes>
   </Config>
   <Config Name="Rampage Total Destruction id#4797">
     <GameIds>
       <GameId>SLES-53800</GameId>
       <GameId>SLUS-21323</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FXAA has an impact on performance, for very little benefit</Notes>
   </Config>
   <Config Name="Reel Fishing III id#149592">
     <GameIds>
       <GameId>SLES-51308</GameId>
       <GameId>SLUS-20555</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines in UI/text, improved by TC Offset, adding in a TC Offset of X: 300 fixes more of them, but this creates a line in terrain; HPO fixes bloom alignment on distant terrain; MTVU negatively affects performance</Notes>
   </Config>
   <Config Name="Ratchet And Clank id#7797">
     <GameIds>
@@ -1294,12 +1604,16 @@
       <GameId>SCPS-19316</GameId>
       <GameId>SCUS-97199</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Missing background in pause and shop menus; a few very minor upscaling lines in text, improved slightly by TC Offset; game is a little blurry, this is actually internal / baked into the game, as there's a slight blur filter that can be disabled via skipdraw = 1 | 1 but this also disables shadows so that isn't used</Notes>
   </Config>
   <Config Name="Resident Evil Outbreak File #2 id#3947">
     <GameIds>
       <GameId>SLES-53319</GameId>
       <GameId>SLUS-20984</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Blending accuracy above none causes a lot of slowdown in both GL and D3D - in the menus in D3D and in game in GL; Async breaks the audio; TC offset fixes lines in text</Notes>
   </Config>
   <Config Name="Resident Evil Outbreak id#3946">
     <GameIds>
@@ -1308,6 +1622,8 @@
       <GameId>SLUS-20765</GameId>
       <GameId>SLUS-29089</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Blending accuracy above none causes a lot of slowdown in both GL and D3D - in the menus in D3D and in game in GL; Async breaks the audio</Notes>
   </Config>
   <Config Name="Ring Of Red id#16726">
     <GameIds>
@@ -1316,12 +1632,16 @@
       <GameId>SLPM-62091</GameId>
       <GameId>SLUS-20145</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Lines in briefing segment backgrounds; software mode (F9) can be used if it's too much of an annoyance; they're present in FMVs too in hardware rendering so Software FMVs is enabled</Notes>
   </Config>
   <Config Name="Rise Of The Kasai id#9784">
     <GameIds>
       <GameId>SCUS-97416</GameId>
       <GameId>SCUS-97462</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some blurring on menu selection screen from interlacing which can be corrected by using Bob bff but this causes pretty much everything else, including gameplay, to jitter</Notes>
   </Config>
   <Config Name="RLH Run Like Hell id#115134">
     <GameIds>
@@ -1329,17 +1649,21 @@
       <GameId>SLPM-65603</GameId>
       <GameId>SLUS-20037</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Robot Alchemic Drive id#9787">
     <GameIds>
       <GameId>SLUS-20445</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game has weird blur filter that causes horizontal lines - this effect is disabled with skipdraw; benefits greatly from MTVU</Notes>
   </Config>
   <Config Name="Robotech Battlecry id#5413">
     <GameIds>
       <GameId>SLES-51322</GameId>
       <GameId>SLUS-20244</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Rogue Galaxy id#9350">
     <GameIds>
@@ -1350,6 +1674,8 @@
       <GameId>SCUS-97490</GameId>
       <GameId>SCUS-97572</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some postprocessing effects aren't quite right (like blur with fast movement); HPO fixes some bloom alignment issues; merge sprite fixes bloom on Juraika; Blending accuracy needs to be set to full otherwise text is gray instead of white; some upscaling lines in UI (minor)</Notes>
   </Config>
   <Config Name="Romancing Saga id#9790">
     <GameIds>
@@ -1358,6 +1684,7 @@
       <GameId>SLPM-66422</GameId>
       <GameId>SLUS-21263</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Rule Of Rose id#12684">
     <GameIds>
@@ -1367,6 +1694,8 @@
       <GameId>SLUS-21448</GameId>
       <GameId>SLUS-28063</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has some texture flicking (z-fighting) in outdoor areas - not present in software rendering</Notes>
   </Config>
   <Config Name="Rumble Roses id#9793">
     <GameIds>
@@ -1375,6 +1704,8 @@
       <GameId>SLPM-66085</GameId>
       <GameId>SLUS-20970</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines; using no interlacing patch</Notes>
   </Config>
   <Config Name="Rune Viking Warlord id#20785">
     <GameIds>
@@ -1385,18 +1716,24 @@
       <GameId>SLES-50339</GameId>
       <GameId>SLUS-20109</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Certain graphical effects don't display properly without GL and blending accuracy set to Full+ (like parts of the sky lighting); loading screens sometimes don't display the image properly; FXAA has a slight impact on performance</Notes>
   </Config>
   <Config Name="Rygar The Legendary Adventure id#5417">
     <GameIds>
       <GameId>SLES-51445</GameId>
       <GameId>SLUS-20471</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="S.L.A.I. Steel Lancer Arena International id#11183">
     <GameIds>
       <GameId>SLES-52940</GameId>
       <GameId>SLPM-65791</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes some upscaling lines</Notes>
   </Config>
   <Config Name="Samurai Western id#9802">
     <GameIds>
@@ -1404,6 +1741,8 @@
       <GameId>SLUS-21187</GameId>
       <GameId>SLUS-28051</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Needs Large Framebuffer to prevent some visual bugs (horizontal line through the screen at the beginning of the first level); occasional slowdown above 4x (like when destroying parts of buildings), blending accuracy above none can cause some slowdown; HPO fixes blurriness</Notes>
   </Config>
   <Config Name="Shadow Hearts Covenant id#12758">
     <GameIds>
@@ -1412,6 +1751,8 @@
       <GameId>SLUS-21041</GameId>
       <GameId>SLUS-21044</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Judgement ring sometimes doesn't display correctly (to be more accurate, everything around the judgement ring) with hardware rendering</Notes>
   </Config>
   <Config Name="Shadow Hearts id#12753">
     <GameIds>
@@ -1421,11 +1762,15 @@
       <GameId>SLPS-73418</GameId>
       <GameId>SLUS-20347</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>EE/IOP clamping mode and 8-bit textures improves performance; interlacing causes flickering in battle completion screen and white transitions; FXAA has about a 10% impact on speed, disable if needed (PgUp); using no interlacing patch</Notes>
   </Config>
   <Config Name="Shadow Of Destiny id#12245">
     <GameIds>
       <GameId>SLUS-20146</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some occasional z-fighting (not fixed by nearest texture filtering); shadows don't display in D3D; significant performance increase from MTVU</Notes>
   </Config>
   <Config Name="Shadow of Rome id#17004">
     <GameIds>
@@ -1434,6 +1779,8 @@
       <GameId>SLPM-66745</GameId>
       <GameId>SLUS-20902</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Slowdown at 5x+ upscaling; shadows and some other graphical effects don't work in hardware rendering - these are disabled with CRC level of partial or higher; half pixel offset fixes bloom; no longer requires PCSX2 1.2.1 for proper FMV audio as of dev 3278!; using no interlacing patch</Notes>
   </Config>
   <Config Name="Shadow Of The Colossus id#2240">
     <GameIds>
@@ -1443,18 +1790,24 @@
       <GameId>SCUS-97472</GameId>
       <GameId>SCUS-97505</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>OPH Flag Hack provides a massive performance boost; mostly runs at full speed at 4x, but does have some occasional slowdown in colossus fights so using 3x which has none (or only very rarely); HPO fixes bloom alignment; blending accuracy has to be set to medium or higher for bloom to display properly; CRC level can be set to Aggressive to disable bloom; Vsync disabled helps improve performance; some texture flickering (z-fighting) issues on distant terrain; saw a report on the PCSX2 forums that MTVU decreases performance, but that isn't my experience at all - it was providing about a 25% speed increase in my testing</Notes>
   </Config>
   <Config Name="Shadow Tower Abyss id#12661">
     <GameIds>
       <GameId>SCAJ-20045</GameId>
       <GameId>SLPS-25217</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Lighting flickers if Blending Accuracy is above None on both GL and D3D; GL has issue with sudden (erroneous) changes to lighting (suddenly goes from brighter to darker and vice versa), D3D doesn't have this issue but it's also way too dark by default - using shade boost with brightness at 85%; alternately set it to about 65% and change the in-game brightness up to max (preferable); both FXAA and each scaling step have a pretty significant impact on performance - about 50-80% for FXAA and about 100% per scaling step, opted for 4x + FXAA which results in about 350% but adjust as needed/wanted</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Devil Summoner Raidou Kuzunoha Vs. The Soulless Army id#13111">
     <GameIds>
       <GameId>SLES-54629</GameId>
       <GameId>SLUS-21431</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few upscaling lines; tried the no interlacing patch and the game is clearly skipping frames when it's in use - it's very obvious when swapping between it and normal + Bob tff deinterlacing, Bob tff doesn't cause jitter in the game anyway, so better off with it</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Digital Devil Saga 2 id#12547">
     <GameIds>
@@ -1464,6 +1817,8 @@
       <GameId>SLPM-65795</GameId>
       <GameId>SLPM-66373</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes lines in shadows in D3D; occasional slowdown above 4x scaling; a couple lines in some UI elements (very minor); saw a report on the PCSX2 forums that MTVU negatively impacts performance but this wasn't my experience - it provided about 20% speed increase outside of combat and about 50% speed increase in combat in my testing; Async in SPU can break music if framelimiter is disabled; using progressive scan patch</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Digital Devil Saga id#9329">
     <GameIds>
@@ -1475,6 +1830,8 @@
       <GameId>SLPM-65597</GameId>
       <GameId>SLPM-66372</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using a customized version of the widescreen patch that doesn't remove shadows and enables progressive scan, because they work now; DSF fixes lines in shadows in D3D; a couple lines in some UI elements (very minor); saw a report on the PCSX2 forums that MTVU negatively impacts performance but this wasn't my experience - it provided about 20% speed increase outside of combat and about 50% speed increase in combat in my testing</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Nocturne id#12344">
     <GameIds>
@@ -1483,6 +1840,8 @@
       <GameId>SLPM-65241</GameId>
       <GameId>SLPM-65242</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some graphical effects aren't replicated in D3D, like the smoke around the woman in the intro (where you enter your name); D3D also needs "Disable Safe Features" to remove bugs with shadows; some objects have an ugly DoF effect around them which can be disabled by enabling Disable Depth Emulation but this causes overlapping shadows; Async can cause audio to stop working if framelimiter is disabled; FXAA has an impact on performance; using progressive scan patch</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Persona 3 Fes id#9327">
     <GameIds>
@@ -1492,6 +1851,8 @@
       <GameId>SLPM-66689</GameId>
       <GameId>SLPM-74277</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes shadows in D3D; FMVs are interlaced internally; FXAA does have an impact on performance, but still runs at 250%+, disable (PgUp) if needed</Notes>
   </Config>
   <Config Name="Shin Megami Tensei Persona 4 id#9328">
     <GameIds>
@@ -1503,6 +1864,8 @@
       <GameId>SLPM-66978</GameId>
       <GameId>SLPM-74278</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes shadows in D3D; FXAA does have an impact on performance, but still runs at 300%+, disable (PgUp) if needed)</Notes>
   </Config>
   <Config Name="Shining Tears id#9808">
     <GameIds>
@@ -1511,6 +1874,8 @@
       <GameId>SLPM-74218</GameId>
       <GameId>SLUS-21063</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines in text (minor), mostly fixed with TC offset; game is sprite-based, so not using FXAA</Notes>
   </Config>
   <Config Name="Shinobi id#4775">
     <GameIds>
@@ -1523,6 +1888,8 @@
       <GameId>SLUS-20459</GameId>
       <GameId>SLUS-28016</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Silent Hill 2 id#4793">
     <GameIds>
@@ -1531,6 +1898,8 @@
       <GameId>SLPM-65631</GameId>
       <GameId>SLUS-20228</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D performs a bit worse than GL; 6x scaling causes some occasional slowdown; FXAA has an impact on performance, but still runs at 200%+</Notes>
   </Config>
   <Config Name="Silent Hill 3 id#4794">
     <GameIds>
@@ -1540,6 +1909,8 @@
       <GameId>SLPM-66018</GameId>
       <GameId>SLUS-20622</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D is missing grain and shadows aren't right; FMVs don't display correctly/at all in hardware</Notes>
   </Config>
   <Config Name="Silent Hill 4 The Room id#5387">
     <GameIds>
@@ -1548,12 +1919,16 @@
       <GameId>SLPM-65574</GameId>
       <GameId>SLUS-20873</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>D3D requires "Disable Safe Features" for shadows to display correctly, and performs worse than GL (some slowdown even at 4x scaling)</Notes>
   </Config>
   <Config Name="Silpheed The Lost Planet id#31894">
     <GameIds>
       <GameId>SLES-50193</GameId>
       <GameId>SLPM-62015</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU causes visual bugs in backgrounds; FXAA has about a 30% impact on speed</Notes>
   </Config>
   <Config Name="Siren id#9336">
     <GameIds>
@@ -1567,18 +1942,24 @@
       <GameId>SCUS-97398</GameId>
       <GameId>SCES-51920</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Later levels have "wall of fog" in hardware</Notes>
   </Config>
   <Config Name="Skygunner id#9812">
     <GameIds>
       <GameId>SLUS-20384</GameId>
       <GameId>SCPS-11006</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Has slowdown above 4x on some levels (like start of second level); MTVU provides a small performance increase (about 15%); using no interlacing patch</Notes>
   </Config>
   <Config Name="Sled Storm id#28351">
     <GameIds>
       <GameId>SLES-50683</GameId>
       <GameId>SLUS-20363</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Lens flares are visible through objects in D3D</Notes>
   </Config>
   <Config Name="Sly Cooper And The Thievius Raccoonus id#9815">
     <GameIds>
@@ -1586,6 +1967,7 @@
       <GameId>SCUS-97198</GameId>
       <GameId>SCUS-97210</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Soul Calibur III id#4788">
     <GameIds>
@@ -1596,18 +1978,24 @@
       <GameId>SLPS-25577</GameId>
       <GameId>SLUS-21216</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Occasional slowdown on some stages; graphical corruption on Will O The Wisp</Notes>
   </Config>
   <Config Name="Soul Reaver 2 id#4787">
     <GameId>SCPS-55013</GameId>
     <GameId>SLES-50196</GameId>
     <GameId>SLPS-25085</GameId>
     <GameId>SLUS-20165</GameId>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Sphinx And The Cursed Mummy id#13365">
     <GameIds>
       <GameId>SLES-51831</GameId>
       <GameId>SLUS-20482</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some dots in text, can be adjusted with TC Offset X, but doing so eliminates some dots only to create others; FXAA has about a 25% impact on maximum speed</Notes>
   </Config>
   <Config Name="Spartan Total Warrior id#20786">
     <GameIds>
@@ -1615,12 +2003,16 @@
       <GameId>SLES-53393</GameId>
       <GameId>SLPM-66444</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Aggressive CRC fixes brightness; EE timing fixes textures; texture flicker (z-fighting) on distant objects; FXAA has an impact on performance at higher scaling</Notes>
   </Config>
   <Config Name="Spyro Enter The Dragonfly id#9823">
     <GameIds>
       <GameId>SLES-51043</GameId>
       <GameId>SLUS-20315</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU causes graphical corruption</Notes>
   </Config>
   <Config Name="SSX 3 id#3760">
     <GameIds>
@@ -1630,6 +2022,8 @@
       <GameId>SLPM-65793</GameId>
       <GameId>SLUS-20772</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Increasing scaling above 4x starts to cause slowdown; small line visible in certain areas ahead of player, reduced by half pixel offset setting</Notes>
   </Config>
   <Config Name="SSX Tricky id#8378">
     <GameIds>
@@ -1637,6 +2031,8 @@
       <GameId>SLPS-25078</GameId>
       <GameId>SLUS-20326</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Character can become invisible/disconnected from camera without EE/IOP Round Mode setting</Notes>
   </Config>
   <Config Name="Star Ocean Till The End Of Time id#7973">
     <GameId>SLUS-20488</GameId>
@@ -1650,6 +2046,8 @@
     <GameId>SLPM-65439</GameId>
     <GameId>SLPM-66478</GameId>
     <GameId>SLPM-66479</GameId>
+    <Status>g</Status>
+    <Notes>TC Offset fixes vertical lines in transitions; DSF (plus TC Offset) is needed for D3D to prevent vertical lines in transitions, but this causes weird, random screen flashing (same as Radiata Stories), it's not needed in GL; there are a few lines in some UI elements from TC offset (minor)</Notes>
   </Config>
   <Config Name="Star Wars Bounty Hunter id#4782">
     <GameIds>
@@ -1660,12 +2058,16 @@
       <GameId>SLES-50835</GameId>
       <GameId>SLUS-20420</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some upscaling lines in UI (minor)</Notes>
   </Config>
   <Config Name="Star Wars Racer Revenge id#24555">
     <GameIds>
       <GameId>SLES-50366</GameId>
       <GameId>SLUS-20268</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Grand Reefs and Citadel levels must be played in software mode (press F9) - major visual glitches from water effects; some screen flashing on some levels</Notes>
   </Config>
   <Config Name="State Of Emergency id#9036">
     <GameIds>
@@ -1673,6 +2075,8 @@
       <GameId>SLES-51046</GameId>
       <GameId>SLUS-20214</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Alpha Stencil fixes shadow ghosting</Notes>
   </Config>
   <Config Name="Steambot Chronicles id#10708">
     <GameIds>
@@ -1681,6 +2085,8 @@
       <GameId>SLUS-28061</GameId>
       <GameId>SLUS-29188</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Hardware renderers are missing effects (fog, lighting, etc.); some occasional slowdown</Notes>
   </Config>
   <Config Name="Stella Deus The Gate Of Eternity id#12808">
     <GameIds>
@@ -1688,6 +2094,8 @@
       <GameId>SLUS-21132</GameId>
       <GameId>SLUS-28050</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Primarily sprite-based, so not using FXAA</Notes>
   </Config>
   <Config Name="Street Fighter Ex3 id#17304">
     <GameIds>
@@ -1695,11 +2103,15 @@
       <GameId>SLPS-20003</GameId>
       <GameId>SLUS-20130</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU causes graphical corruption; using no interlacing patch</Notes>
   </Config>
   <Config Name="Stretch Panic id#25128">
     <GameIds>
       <GameId>SLUS-20182</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Skipdraw disables blur layer; allow 8-bit helps with performance</Notes>
   </Config>
   <Config Name="Suikoden III id#12388">
     <GameIds>
@@ -1708,6 +2120,8 @@
       <GameId>SLPM-65074</GameId>
       <GameId>SLPM-65305</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some dots in dialogue boxes (minor)</Notes>
   </Config>
   <Config Name="Suikoden V id#12394">
     <GameIds>
@@ -1717,6 +2131,8 @@
       <GameId>SLPM-66286</GameId>
       <GameId>SLPM-74238</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some lines in dialogue boxes and menus (minor); TC offset mostly removes it; can be removed completely by setting texture filtering to nearest, but then some transparent effects like clouds don't display correctly</Notes>
   </Config>
   <Config Name="Summoner 2 id#13117">
     <GameIds>
@@ -1726,6 +2142,8 @@
       <GameId>SLUS-20448</GameId>
       <GameId>SLUS-29029</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines around text/sprites (minor); FXAA does have an impact on performance, but still runs at 250%+</Notes>
   </Config>
   <Config Name="Summoner id#12490">
     <GameIds>
@@ -1733,6 +2151,8 @@
       <GameId>SLES-82005</GameId>
       <GameId>SLUS-20074</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Dark rectangle in upper left corner of screen with hardware rendering</Notes>
   </Config>
   <Config Name="Tales Of Legendia id#12453">
     <GameIds>
@@ -1742,6 +2162,8 @@
       <GameId>SLPS-73242</GameId>
       <GameId>SLUS-21201</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Merge sprite fixes screen blur; Some shadows don't display correctly (puppet lines) in D3D without DSF, but this hides dialogue boxes, no issue in GL; TC Offset fixes upscaling lines in UI; saw a report that MTVU decreases performance - in my testing it didn't decrease it, but it didn't improve it either, so it's disabled; using no interlacing patch</Notes>
   </Config>
   <Config Name="Tales Of The Abyss id#13119">
     <GameIds>
@@ -1751,6 +2173,8 @@
       <GameId>SLPS-73252</GameId>
       <GameId>SLUS-21386</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>HPO fixes screen blur; sunlight bloom occasionally doesn't look quite right (makes some kindof chunky yellow areas) and it isn't fixed with Frame Buffer Conversion or alternate HPO setting; in a few areas the left and right screen don't render quite right from widescreen hack</Notes>
   </Config>
   <Config Name="Tekken 5 id#3753">
     <GameIds>
@@ -1765,6 +2189,8 @@
       <GameId>SLUS-21059</GameId>
       <GameId>SLUS-21160</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>In Options -&gt; Display Settings set scan mode to "sharp", video mode to "normal", and aspect ratio to 16:9 - do not use "progressive" video mode; Align Sprite fixes vertical lines; MTVU provides a significant performance boost</Notes>
   </Config>
   <Config Name="Tekken Tag Tournament id#3770">
     <GameIds>
@@ -1775,6 +2201,8 @@
       <GameId>SLPS-73104</GameId>
       <GameId>SLUS-20001</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Align Sprite fixes vertical lines; using no interlacing patch - includes versions for both v1.00 and v2.00 discs; FMVs jitter with the no interlacing patch and don't with Bob tff, but the rest of the game looks sharper with the patch than Bob tff does</Notes>
   </Config>
   <Config Name="Tenchu Wrath Of Heaven id#13122">
     <GameIds>
@@ -1783,6 +2211,8 @@
       <GameId>SLES-51402</GameId>
       <GameId>SLES-51403</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>TC Offset fixes some upscaling lines; cutscenes jitter from interlacing; using no interlacing patch</Notes>
   </Config>
   <Config Name="The Bouncer id#5914">
     <GameIds>
@@ -1790,6 +2220,8 @@
       <GameId>SLUS-20069</GameId>
       <GameId>SCES-50241</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="The Getaway id#7449">
     <GameIds>
@@ -1799,6 +2231,8 @@
       <GameId>SCUS-97133</GameId>
       <GameId>SLPM-65410</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has occasional slowdown in some cutscenes; this can be reduced by increasing VU cycle stealing (starting at 1 is recommended) but this causes frame pacing issues/jitteriness which is especially noticeable in play, it's a tradeoff; missing shadows in hardware renderers; Allow 8-bit textures, MTVU, and EE Cycle rate all improve performance</Notes>
   </Config>
   <Config Name="The King Of Fighters 2006 id#7453">
     <GameIds>
@@ -1808,12 +2242,16 @@
       <GameId>SLPS-25779</GameId>
       <GameId>SLUS-21365</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some lines in text (minor)</Notes>
   </Config>
   <Config Name="The Lord Of The Rings The Fellowship Of The Ring id#7454">
     <GameIds>
       <GameId>SLES-50988</GameId>
       <GameId>SLUS-20520</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Graphical issue on opening memory card screen</Notes>
   </Config>
   <Config Name="The Lord Of The Rings The Return Of The King id#7455">
     <GameIds>
@@ -1826,6 +2264,8 @@
       <GameId>SLPM-65727</GameId>
       <GameId>SLUS-20770</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Some text in menus will be missing unless you switch to Software mode (F9); in-game is fine in hardware rendering - press F9 after you complete a level and again when starting the next level; can have some occasional slowdown</Notes>
   </Config>
   <Config Name="The Lord Of The Rings The Third Age id#7456">
     <GameIds>
@@ -1836,6 +2276,8 @@
       <GameId>SLES-52805</GameId>
       <GameId>SLUS-21027</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Occasionally some black vertical semi-transparent bars will appear, press F9 to switch to software, then F9 to switch back to remove them - it's fairly rare with the settings used; occasionally there are some very slight lingering ghost lines (minor, but fairly frequent); occasionally a small black semi-transparent box will appear in the upper left part of the screen (minor)</Notes>
   </Config>
   <Config Name="The Lord Of The Rings The Two Towers id#7457">
     <GameIds>
@@ -1851,25 +2293,33 @@
       <GameId>SLPS-29004</GameId>
       <GameId>SLUS-20578</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Half Pixel Offset fixes line beyond fog (Moria etc.); D3D has some slowdown</Notes>
   </Config>
   <Config Name="The Mark Of Kri id#7458">
     <GameIds>
       <GameId>SCES-51164</GameId>
       <GameId>SCUS-97140</GameId>
-      <GameId>SCUS-97201</GameId>  
+      <GameId>SCUS-97201</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Bob tff causes small amount of jitter in cutscenes, but gameplay is sharper</Notes>
   </Config>
   <Config Name="The Nightmare Of Druaga Fushigino Dungeon id#7459">
     <GameIds>
       <GameId>SLPS-25377</GameId>
       <GameId>SLUS-21071</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes lines in pause menu</Notes>
   </Config>
   <Config Name="The Red Star id#9956">
     <GameIds>
       <GameId>SLUS-20885</GameId>
       <GameId>SLES-54581</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game has radius line that can be mostly mitigated with Half Pixel Offset: Special (Texture - Aggressive) but Skipdraw = 1 | 1 completely eliminates it - it does remove some other minor elements in the process, switch to HPO if it bothers you; some elements don't render correctly (like on the first boss) without Accurate Date=Full; FXAA has an impact on performance, but provides a pretty substantial visual benefit at 4x, disable (PgUp) if needed</Notes>
   </Config>
   <Config Name="The Thing id#5397">
     <GameIds>
@@ -1877,29 +2327,38 @@
       <GameId>SLES-50976</GameId>
       <GameId>SLUS-20371</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>FMVs flicker in hardware rendering</Notes>
   </Config>
   <Config Name="The Warriors id#12509">
     <GameIds>
       <GameId>SLES-53443</GameId>
       <GameId>SLUS-21215</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="The X-Files Resist Or Serve id#4766">
     <GameIds>
       <GameId>SLES-52341</GameId>
       <GameId>SLUS-20179</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Set the aspect ratio to widescreen in options &gt; video &gt; aspect ratio; DSF fixes issues with shadows in D3D</Notes>
   </Config>
   <Config Name="Trapt id#12901">
     <GameIds>
       <GameId>SLES-53824</GameId>
       <GameId>SLUS-21255</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Numerous graphical bugs in hardware rendering; none in software rendering</Notes>
   </Config>
   <Config Name="Tsugunai Atonement id#13943">
     <GameIds>
       <GameId>SLUS-20292</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>MTVU causes graphical corruption (blank textures)</Notes>
   </Config>
   <Config Name="Twisted Metal Black id#7922">
     <GameIds>
@@ -1908,11 +2367,15 @@
       <GameId>SCUS-97164</GameId>
       <GameId>SCUS-97179</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Jitter in cutscenes and menus from Bob deinterlacing, set to Auto if it bothers you; D3D performs slightly worse than GL</Notes>
   </Config>
   <Config Name="Twisted Metal Head-On - Extra Twisted Edition id#12336">
     <GameIds>
       <GameId>SCUS-97621</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Cutscenes are off-center - this is not because of hardware rendering or the widescreen hack, it's like that even with them disabled and the video set to 4:3; MTVU causes graphical corruption with skybox</Notes>
   </Config>
   <Config Name="Unlimited Saga id#9835">
     <GameIds>
@@ -1923,6 +2386,8 @@
       <GameId>SLPS-25199</GameId>
       <GameId>SLUS-20678</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Widescreen hacks are disabled because combat areas are still 4:3, not 16:9 with them on, which looks quite weird; game is primarily sprite-based, so FXAA isn't used</Notes>
   </Config>
   <Config Name="Urban Chaos Riot Response id#9838">
     <GameIds>
@@ -1930,6 +2395,8 @@
       <GameId>SLPM-66767</GameId>
       <GameId>SLUS-21390</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Has some occasional slowdown, more or less depending on the level, if it's too bad, reduce scaling to 3x; FXAA doesn't appear to affect speed one way or the other; greatly benefits from MTVU; TC offset fixes some of the effects alignment (can use HPO: Special Texture alternatively, but the alignment is off with this option if using 3x scaling); bloom alignment on light sources is off, can be corrected by enabling Auto Flush but this has a massive impact on performance so it isn't used</Notes>
   </Config>
   <Config Name="Urban Reign id#9836">
     <GameIds>
@@ -1938,6 +2405,8 @@
       <GameId>SLPS-25557</GameId>
       <GameId>SLUS-21209</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Game is interlaced - Bob deinterlacing modes makes gameplay clearer but all menus jitter; Align Sprite fixes vertical lines; a weird garbage texture is momentarily flashed on the screen when winning/losing a match</Notes>
   </Config>
   <Config Name="V-Rally 3 id#122314">
     <GameIds>
@@ -1947,6 +2416,8 @@
       <GameId>SLPM-65539</GameId>
       <GameId>SLUS-20496</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Hardware modes have major graphical problems; software regularly runs at 85-90% speed; might want to consider using the PAL version since 90% NTSC is over 100% PAL - it's about 54 FPS</Notes>
   </Config>
   <Config Name="Valkyrie Profile 2 Silmeria id#9330">
     <GameIds>
@@ -1962,18 +2433,24 @@
       <GameId>SLPM-66782</GameId>
       <GameId>SLUS-21452</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Widescreen needs to be enabled in-game (prompts as soon as you start the game) and not via hack (which has bugs); some bloom misalignment in some areas (software rendering fixes it); HPO helps with bloom alignment; Round Sprite: Half fixes lines in transitions (using Full creates semi-transparent "seams" in FMVs); some areas (like the forest) have a grid that can be removed by switching to software mode (F9); Frame Buffer Conversion and Merge Sprite fix ugly depth of field; some occasional slowdown</Notes>
   </Config>
   <Config Name="Vexx id#9839">
     <GameIds>
       <GameId>SLES-50481</GameId>
       <GameId>SLUS-20383</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Image freezes on last frame when entering water or using tutorial orbs with hardware rendering, not present in software</Notes>
   </Config>
   <Config Name="Viewtiful Joe id#2775">
     <GameIds>
       <GameId>SLES-52678</GameId>
       <GameId>SLUS-20951</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some rendering errors in the intro (when the robot is knocked through the screen) even in software mode; shadows sometimes aren't positioned correctly (in the middle of characters) even in software mode; some areas are a little bit blurry, not improved by deinterlacing or HPO</Notes>
   </Config>
   <Config Name="War Of The Monsters id#11520">
     <GameIds>
@@ -1982,18 +2459,24 @@
       <GameId>SCUS-97260</GameId>
       <GameId>SLPM-65412</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some interlacing jitter in cutscenes / loading; MTVU causes graphical corruption</Notes>
   </Config>
   <Config Name="Way Of The Samurai 2 id#12468">
     <GameIds>
       <GameId>SLES-52275</GameId>
       <GameId>SLUS-20893</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>A few lines from upscaling; mitigated somewhat by round sprite</Notes>
   </Config>
   <Config Name="Way Of The Samurai id#12467">
     <GameIds>
       <GameId>SLES-50921</GameId>
       <GameId>SLUS-20407</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Round sprite fixes upscaling lines in text/UI; using no interlacing patch</Notes>
   </Config>
   <Config Name="Whiplash id#10022">
     <GameIds>
@@ -2001,6 +2484,8 @@
       <GameId>SLUS-20684</GameId>
       <GameId>SLUS-29080</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Using no interlacing patch</Notes>
   </Config>
   <Config Name="Wild Arms 3 id#12908">
     <GameIds>
@@ -2011,6 +2496,8 @@
       <GameId>SCPS-15024</GameId>
       <GameId>SCPS-15023</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Character lighting isn't quite right in D3D (too bright); WAO corrects lines in text; FXAA does have an impact on performance, but still runs at 200%+; using no interlacing patch</Notes>
   </Config>
   <Config Name="Wild Arms 4 id#5425">
     <GameIds>
@@ -2023,6 +2510,8 @@
       <GameId>SCPS-19322</GameId>
       <GameId>SCPS-19323</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>WAO corrects lines in text; Round Sprite: Full removes upscaling lines, but creates semi-transparent "seams" in the image - Merge Sprite fixes this, can use TC Offset X: 300 as an alternative to Round Sprite + Merge Sprite but it creates lines elsewhere</Notes>
   </Config>
   <Config Name="Wild Arms 5 id#12774">
     <GameIds>
@@ -2031,6 +2520,8 @@
       <GameId>SCAJ-20183</GameId>
       <GameId>SCPS-15118</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Merge sprite removes some semi-transparent "seams" in textures; frame buffer conversion fixes sepia-tone flashback sequences; DSF fixes some horizontal lines in some transition effects; Round Sprite: Full fixes upscaling lines</Notes>
   </Config>
   <Config Name="Wild Arms Alter Code F id#12776">
     <GameIds>
@@ -2040,18 +2531,23 @@
       <GameId>SCPS-19253</GameId>
       <GameId>SLUS-20937</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Character lighting isn't quite right in D3D (too bright); WAO corrects lines in text; using no interlacing patch</Notes>
   </Config>
   <Config Name="Wipeout Fusion id#8363">
     <GameIds>
       <GameId>SCES-50005</GameId>
       <GameId>SLUS-20462</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Fairly CPU-intensive game; EE cycle rate and SPU settings help provide better/more consistent performance; MTVU seems to have a slightly negative impact on performance</Notes>
   </Config>
   <Config Name="Wizardry Tale Of The Forsaken Land id#12246">
     <GameIds>
       <GameId>SLES-51118</GameId>
       <GameId>SLUS-20259</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Xenosaga Episode I Der Wille Zur Macht id#5426">
     <GameIds>
@@ -2060,6 +2556,8 @@
       <GameId>SCAJ-30001</GameId>
       <GameId>SCPS-55901</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Some upscaling lines around some text/sprites in battle - can be mitigated somewhat with TC offset but doing so makes other lines appear elsewhere</Notes>
   </Config>
   <Config Name="XGIII Extreme G Racing id#9683">
     <GameIds>
@@ -2067,12 +2565,15 @@
       <GameId>SLES-50210</GameId>
       <GameId>SLUS-20302</GameId>
     </GameIds>
+    <Status>g</Status>
+    <Notes>Jitter in loading screens from interlacing</Notes>
   </Config>
   <Config Name="XGRA Extreme G Racing Association id#129397">
     <GameIds>
       <GameId>SLES-51636</GameId>
       <GameId>SLUS-20632</GameId>
     </GameIds>
+    <Status>g</Status>
   </Config>
   <Config Name="Yakuza 2 id#3921">
     <GameIds>
@@ -2084,6 +2585,8 @@
       <GameId>SLPM-66603</GameId>
       <GameId>SLPM-74301</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Using CRC level of partial or higher sometimes reduces the resolution after a cutscene has ended - even without the Software FMV fix enabled - an example is the scene after the FMV with the fire at the beginning; depth of field/bloom/blur alignment is a little bit off, it's improved by TC offset but it's not perfect - X 200 / Y 200 is closer but as soon as the X offset is adjusted it creates a semi-transparent line in the middle of the screen (same with using HPO); Preload Frame Data fixes the majority of cases where there's weird light areas in the bottom/right side of the screen (though not 100%)</Notes>
   </Config>
   <Config Name="Yakuza id#8500">
     <GameIds>
@@ -2095,5 +2598,19 @@
       <GameId>SLPM-74234</GameId>
       <GameId>SLPM-74253</GameId>
     </GameIds>
+    <Status>y</Status>
+    <Notes>Using CRC level of partial or higher causes some occasionally really bizarre bloom/blur/depth of field behavior - like in the area as you turn right to go down the street on the first mission as an example (there's a large Canyon cigarettes sign in the middle/top of the screen); depth of field/bloom/blur alignment is a little bit off, it's improved by TC offset but it's not perfect - X 200 / Y 200 is closer but as soon as the X offset is adjusted it creates a semi-transparent line in the middle of the screen (same with using HPO); Preload Frame Data might help with issues later, since it does in Yakuza 2, but I didn't encounter any instances of it so it's not enabled currently</Notes>
+  </Config>
+  <Config Name="Battle Engine Aquila id#12008">
+    <Status>g</Status>
+    <Notes>VU Clamping mode fixes broken menus; HPO fixes bloom alignment</Notes>
+  </Config>
+  <Config Name="Cocoto Fishing Master id#129402">
+    <Status>g</Status>
+    <Notes>HPO + Merge Sprite fix bloom alignment; FXAA has an impact on performance</Notes>
+  </Config>
+  <Config Name="Gallop Racer 2006 id#9699">
+    <Status>g</Status>
+    <Notes>FXAA has about a 30% impact on maximum performance; skipdraw removes jittery depth of field; round sprite fixes some upscaling lines</Notes>
   </Config>
 </RemoteConfigs>
