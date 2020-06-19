@@ -1,0 +1,21 @@
+name: Update Remote Index
+
+on:
+  repository_dispatch:
+    types: update-index
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-dotnet@v1.5.0
+      with:
+        dotnet-version: '3.1.x'
+
+    - run: dotnet tool install -g dotnet-script
+    - shell: pwsh
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      run: dotnet script Scripts/UpdateRemoteIndexFromSpreadsheet.csx
