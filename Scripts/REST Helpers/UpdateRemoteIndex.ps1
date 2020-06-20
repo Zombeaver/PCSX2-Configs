@@ -1,0 +1,1 @@
+Invoke-RestMethod -Method POST -Uri https://api.github.com/repos/Zombeaver/PCSX2-Configs/dispatches -Headers @{"Authorization" = "token " + $env:GITHUB_TOKEN } -Body (@{ event_type = "update-index" } | ConvertTo-Json)
