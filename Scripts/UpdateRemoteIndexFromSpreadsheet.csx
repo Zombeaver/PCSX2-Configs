@@ -6,10 +6,12 @@ using System.Xml;
 using System.Linq;
 using System.Net.Http;
 using System.Text.RegularExpressions;
+using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 using IniParser.Model;
 using IniParser.Parser;
 
+static string GetScriptFolder([CallerFilePath] string path = null) => Path.GetDirectoryName(path);
 var googleApiKey = Environment.GetEnvironmentVariable("GOOGLE_API_KEY");
 var spreadsheetRequestUri = $"https://sheets.googleapis.com/v4/spreadsheets/1sC19l0htx0Qu2QE1CFta5R35iqPBN332dCHfTg1BGlQ/values/PS2%20Configs?key={googleApiKey}";
 var remoteIndexRequestUri = "https://raw.githubusercontent.com/Zombeaver/PCSX2-Configs/master/RemoteIndex.xml";
@@ -51,7 +53,7 @@ foreach(var value in spreadsheetValues) // Iterate through all the entries in th
 }
 
 // Save the updated file locally, overwriting the original
-remoteIndexXml.Save("../RemoteIndex.xml");
+remoteIndexXml.Save($"{Directory.GetParent(GetScriptFolder())}/RemoteIndex.xml");
 
 XmlNode FindOrAddConfigNode(string configName)
 {
