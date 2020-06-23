@@ -1,0 +1,4 @@
+comment=Hot Shots Golf Fore! NTSC-U No Interlacing Patch
+patch=1,EE,0012a49c,word,00000000
+patch=1,EE,0012a704,word,00000000
+

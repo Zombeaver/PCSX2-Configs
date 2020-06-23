@@ -1,0 +1,3 @@
+comment=Hot Shots Golf 3 NTSC-U No Interlacing Patch (alternate CRC)
+patch=1,EE,0010413c,word,00000000
+patch=1,EE,001043a4,word,00000000
