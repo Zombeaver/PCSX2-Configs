@@ -1,2 +1,2 @@
-//Nightshade NTSC-U No Interlacing Patch
+comment=Nightshade NTSC-U No Interlacing Patch
 patch=1,EE,2039C03C,extended,00000000

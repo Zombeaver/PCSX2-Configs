@@ -1,2 +1,2 @@
-//Fatal Frame NTSC-U No Interlacing Patch
+comment=Fatal Frame NTSC-U No Interlacing Patch
 patch=1,EE,2023188C,word,00000000

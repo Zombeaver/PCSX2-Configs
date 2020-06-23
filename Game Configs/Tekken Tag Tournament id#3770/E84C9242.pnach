@@ -1,4 +1,4 @@
-//Tekken Tag Tournament v1.00 NTSC-U No Interlacing Patch
+comment=Tekken Tag Tournament v1.00 NTSC-U No Interlacing Patch
 patch=1,EE,208BCFC8,word,00000066
 patch=1,EE,208BCFD0,word,00000001
 patch=1,EE,208BCFD8,word,00009400

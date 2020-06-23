@@ -1,4 +1,4 @@
-// SMT Digital Devil Saga 2 Progressive Scan Patch by Altimor
+comment=SMT Digital Devil Saga 2 Progressive Scan Patch by Altimor
 // NOP out old interlaced field switch
 patch=1,EE,0032A408,word,00000000
 

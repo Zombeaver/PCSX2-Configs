@@ -1,3 +1,3 @@
-//Tales of Legendia NTSC-U No Interlacing Patch
+comment=Tales of Legendia NTSC-U No Interlacing Patch
 patch=1,EE,D03F9750,extended,00001000
 patch=1,EE,103F9750,extended,000010E0

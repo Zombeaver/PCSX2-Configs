@@ -1,2 +1,2 @@
-//Psi-Ops NTSC-U No Interlacing Patch
+comment=Psi-Ops NTSC-U No Interlacing Patch
 patch=1,EE,2056785C,word,00000000

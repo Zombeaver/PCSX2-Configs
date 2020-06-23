@@ -1,4 +1,4 @@
-//Everblue 2 NTSC-U Edge Rendering Fix
+comment=Everblue 2 NTSC-U Edge Rendering Fix
 patch=1,EE,00230b68,word,4b0c211c
 patch=1,EE,00230b6c,word,4be503bc
 patch=1,EE,00230b84,word,4bc0295c

@@ -1,2 +1,2 @@
-//SkyGunner NTSC-U No Interlacing Patch
+comment=SkyGunner NTSC-U No Interlacing Patch
 patch=1,EE,201334FC,word,00000000

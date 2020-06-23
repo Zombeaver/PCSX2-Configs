@@ -1,2 +1,2 @@
-//Maximo - Ghosts to Glory NTSC-U No Interlacing Patch
+comment=Maximo - Ghosts to Glory NTSC-U No Interlacing Patch
 patch=1,EE,2010128C,word,00000000

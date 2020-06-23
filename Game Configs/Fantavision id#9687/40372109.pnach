@@ -1,2 +1,2 @@
-//Fantavision No Interlacing Patch
+comment=Fantavision No Interlacing Patch
 patch=1,EE,201AE894,word,00000000

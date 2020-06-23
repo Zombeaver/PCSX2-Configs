@@ -1,4 +1,4 @@
-//Wild Arms 3 NTSC-U No Interlacing Patch
+comment=Wild Arms 3 NTSC-U No Interlacing Patch
 patch=1,EE,00101B34,word,64420000 // daddiu
 patch=1,EE,00101D9C,word,64420000 // daddiu
 patch=1,EE,00100C2C,word,30420000 // andi < disable this if crash

@@ -1,4 +1,4 @@
-//Wild Arms - Alter Code F NTSC-U No Interlacing Patch
+comment=Wild Arms - Alter Code F NTSC-U No Interlacing Patch
 patch=1,EE,00101DFC,word,64420000 // daddiu
 patch=1,EE,00102064,word,64420000 // daddiu
 patch=1,EE,00100EF4,word,30420000 // andi < disable if crash

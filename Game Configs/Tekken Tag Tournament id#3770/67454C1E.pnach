@@ -1,4 +1,4 @@
-//Tekken Tag Tournament v2.00 NTSC-U No Interlacing Patch
+comment=Tekken Tag Tournament v2.00 NTSC-U No Interlacing Patch
 comment= original no interlace code by asasega. ported by someother1ne
 
 patch=1,EE,208BD0C8,word,00000066  //00007F67

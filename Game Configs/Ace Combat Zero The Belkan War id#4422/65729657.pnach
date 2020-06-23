@@ -1,4 +1,4 @@
-//Ace Combat Zero NTSC-U No Interlacing Patch
+comment=Ace Combat Zero NTSC-U No Interlacing Patch
 patch=1,EE,202F9A14,extended,24020001
 patch=1,EE,202F9D58,extended,0C03FFF0
 patch=1,EE,200FFFC0,extended,341B9070

@@ -1,3 +1,3 @@
-//Extermination NTSC-U No Interlacing Patch
+comment=Extermination NTSC-U No Interlacing Patch
 patch=1,EE,20101614,word,00000000
 patch=1,EE,2010187C,word,00000000

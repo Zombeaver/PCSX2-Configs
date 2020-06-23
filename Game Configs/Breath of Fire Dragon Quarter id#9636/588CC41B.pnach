@@ -1,4 +1,4 @@
-//Breath of Fire - Dragon Quarter NTSC-U No Interlacing Patch
+comment=Breath of Fire - Dragon Quarter NTSC-U No Interlacing Patch
 patch=1,EE,2020D9F0,extended,03E00008
 patch=1,EE,2020D9F4,extended,00000000
 patch=1,EE,20102104,extended,00000000

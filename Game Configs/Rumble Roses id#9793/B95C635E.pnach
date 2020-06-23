@@ -1,4 +1,4 @@
-//Rumble Roses NTSC-U No Interlacing Patch
+comment=Rumble Roses NTSC-U No Interlacing Patch
 patch=1,EE,2010291C,extended,00000000
 patch=1,EE,20102B84,extended,00000000
 patch=1,EE,E0041100,extended,01D4ADA0

@@ -1,2 +1,2 @@
-//Tenchu - Wrath of Heaven NTSC-U No Interlacing Patch
+comment=Tenchu - Wrath of Heaven NTSC-U No Interlacing Patch
 patch=1,EE,202467E8,word,24027900

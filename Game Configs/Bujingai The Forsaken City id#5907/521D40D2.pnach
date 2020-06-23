@@ -1,3 +1,3 @@
-//Bujingai - The Forsaken City NTSC-U No Interlacing Patch
+comment=Bujingai - The Forsaken City NTSC-U No Interlacing Patch
 //no interleaced - function vsynccallback
 patch=1,EE,20127884,word,30420000

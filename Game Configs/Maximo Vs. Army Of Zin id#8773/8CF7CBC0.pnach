@@ -1,2 +1,2 @@
-//Maximo vs Army of Zin NTSC-U No Interlacing Patch
+comment=Maximo vs Army of Zin NTSC-U No Interlacing Patch
 patch=1,EE,2010155C,word,00000000

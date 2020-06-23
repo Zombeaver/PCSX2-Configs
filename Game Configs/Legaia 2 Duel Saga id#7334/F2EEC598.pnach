@@ -1,4 +1,4 @@
-//Legaia 2 - Duel Saga NTSC-U No Interlacing Patch
+comment=Legaia 2 - Duel Saga NTSC-U No Interlacing Patch
 patch=1,EE,205F6E80,extended,00000000
 patch=1,EE,202C0F04,extended,00000000
 patch=1,EE,202A6040,extended,AE000060

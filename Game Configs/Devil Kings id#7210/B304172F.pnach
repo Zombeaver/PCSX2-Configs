@@ -1,4 +1,4 @@
-//Devil Kings NTSC-U No Interlacing + Progressive Scan Patch
+comment=Devil Kings NTSC-U No Interlacing + Progressive Scan Patch
 // No interlaced
 patch=1,EE,0026e43c,word,00000000 //64420008
 patch=1,EE,0026e4c4,word,00000000 //64420008

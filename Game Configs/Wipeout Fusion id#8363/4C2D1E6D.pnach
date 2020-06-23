@@ -1,2 +1,2 @@
-//Wipeout Fusion NTSC-U No Interlacing Patch
+comment=Wipeout Fusion NTSC-U No Interlacing Patch
 patch=1,EE,20216A64,word,00000000
