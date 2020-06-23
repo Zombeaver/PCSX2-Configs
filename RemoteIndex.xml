@@ -926,18 +926,6 @@
     <Status>g</Status>
     <Notes>Some occasional flickering (z-fighting) on distant textures (minor)</Notes>
   </Config>
-  <Config Name="Grand Theft Auto Vice City id#4166">
-    <GameIds>
-      <GameId>Grand Theft Auto - Vice City | SLES-51061</GameId>
-      <GameId>Grand Theft Auto - Vice City | SLES-51316</GameId>
-      <GameId>Grand Theft Auto - Vice City | SLES-51595</GameId>
-      <GameId>Grand Theft Auto - Vice City | SLPM-65488</GameId>
-      <GameId>Grand Theft Auto - Vice City | SLPM-66034</GameId>
-      <GameId>Grand Theft Auto - Vice City | SLUS-20552</GameId>
-    </GameIds>
-    <Status>g</Status>
-    <Notes>Game is a bit blurry, but it's from the in-game effect "Trails" which can be disabled in the in-game display options - that alters the appearance quite a bit though</Notes>
-  </Config>
   <Config Name="Grandia III id#12761">
     <GameIds>
       <GameId>Grandia III | SCAJ-20141</GameId>
@@ -1949,19 +1937,6 @@
     </GameIds>
     <Status>g</Status>
     <Notes>Character can become invisible/disconnected from camera without EE/IOP Round Mode setting; *has native widescreen support, but needs to be enabled from the options menu (choose "Anamorphic")</Notes>
-  </Config>
-  <Config Name="Star Ocean Till The End Of Time id#7973">
-    <Status>g</Status>
-    <Notes>TC Offset fixes vertical lines in transitions; DSF (plus TC Offset) is needed for D3D to prevent vertical lines in transitions, but this causes weird, random screen flashing (same as Radiata Stories), it's not needed in GL; there are a few lines in some UI elements from TC offset (minor); *has native widescreen support, but needs to be enabled from the options menu</Notes>
-    <GameIds>
-      <GameId>Star Ocean 3 - Till the End of Time | SCPS-55019</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Disc1of2] | SLES-82028</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Disc2of2] | SLES-82029</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Ultimate Hits] [Disc1of2] | SLPM-66478</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Ultimate Hits] [Disc2of2] | SLPM-66479</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Disc1of2] | SLUS-20488</GameId>
-      <GameId>Star Ocean 3 - Till the End of Time [Disc2of2] | SLUS-20891</GameId>
-    </GameIds>
   </Config>
   <Config Name="Star Wars Bounty Hunter id#4782">
     <GameIds>
