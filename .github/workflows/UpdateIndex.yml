@@ -27,5 +27,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: dotnet script Scripts/UpdateRemoteIndexFromSpreadsheet.csx
+    - run: git config user.name "github-actions"
     - run: git commit -a -m "Update Remote Config"
     - run: git push https://${{ secrets.GITHUB_TOKEN }}@github.com/Zombeaver/PCSX2-Configs.git
