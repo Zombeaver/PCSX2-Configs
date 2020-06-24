@@ -1,0 +1,2 @@
+comment=MTBikers: Bakusou Mountain Bikers (NTSC-J) [SCPS-15062] No Interlacing Patch
+patch=1,EE,2024B074,word,30420000
