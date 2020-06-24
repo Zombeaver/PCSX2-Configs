@@ -7,8 +7,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "execute"
+  execute:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -22,8 +22,10 @@ jobs:
 
     # Runs commands
     - run: dotnet tool install -g dotnet-script
-    - shell: pwsh
+    - shell: sh
       env: 
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: dotnet script Scripts/UpdateRemoteIndexFromSpreadsheet.csx
+    - run: git config user.name "github-actions"
+    - run: git commit -a -m "Update Remote Config"
+    - run: git push https://${{ secrets.GITHUB_TOKEN }}@github.com/Zombeaver/PCSX2-Configs.git
