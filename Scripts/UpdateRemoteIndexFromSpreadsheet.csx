@@ -81,7 +81,8 @@ string[] LookupGameIds(string gameName, string configName)
         name = Regex.Replace(name, @"IV\b", "4");
         name = Regex.Replace(name, @"III\b", "3");
         name = Regex.Replace(name, @"II\b", "2");
-         
+        
+        name = Regex.Replace(name, @"\band\b", "&");
         return name.Replace(":", "").Replace(" - ", " ").ToLowerInvariant().Trim().Replace("  ", " ");
     };
 
