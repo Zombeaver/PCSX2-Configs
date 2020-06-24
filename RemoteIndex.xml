@@ -589,7 +589,7 @@
       <GameId>Downhill Domination | SLES-52202</GameId>
     </GameIds>
     <Status>g</Status>
-    <Notes>Lens (sun) flares are visible through terrain in D3D (works in GL); MTVU causes graphical corruption</Notes>
+    <Notes>Lens (sun) flares are visible through terrain in D3D (works in GL); MTVU causes graphical corruption; using no interlacing patch</Notes>
   </Config>
   <Config Name="Dr. Muto id#7229">
     <GameIds>
@@ -2240,14 +2240,14 @@
       <GameId>Twisted Metal - Black | SCUS-97101</GameId>
     </GameIds>
     <Status>g</Status>
-    <Notes>Jitter in cutscenes and menus from Bob deinterlacing, set to Auto if it bothers you; D3D performs slightly worse than GL</Notes>
+    <Notes>D3D performs slightly worse than GL; using no interlacing patch</Notes>
   </Config>
   <Config Name="Twisted Metal Head-On - Extra Twisted Edition id#12336">
     <GameIds>
       <GameId>Twisted Metal - Head-On [Extra Twisted Edition] | SCUS-97621</GameId>
     </GameIds>
     <Status>g</Status>
-    <Notes>Cutscenes are off-center - this is not because of hardware rendering or the widescreen hack, it's like that even with them disabled and the video set to 4:3; MTVU causes graphical corruption with skybox</Notes>
+    <Notes>Cutscenes are off-center - this is not because of hardware rendering or the widescreen hack, it's like that even with them disabled and the video set to 4:3; MTVU causes graphical corruption with skybox; using no interlacing patch</Notes>
   </Config>
   <Config Name="Unlimited Saga id#9835">
     <GameIds>
@@ -2537,5 +2537,31 @@
     </GameIds>
     <Status>g</Status>
     <Notes>TC Offset fixes vertical lines in transitions; DSF (plus TC Offset) is needed for D3D to prevent vertical lines in transitions, but this causes weird, random screen flashing (same as Radiata Stories), it's not needed in GL; there are a few lines in some UI elements from TC offset (minor); *has native widescreen support, but needs to be enabled from the options menu</Notes>
+  </Config>
+  <Config Name="Road Trip id#18758">
+    <GameIds>
+      <GameId>Road Trip Adventure | SLES-51356</GameId>
+      <GameId>Road Trip | SLUS-20398</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>DSF fixes artifacts in shadows</Notes>
+  </Config>
+  <Config Name="RoadKill id#108700">
+    <GameIds>
+      <GameId>Road Kill | SLES-51842</GameId>
+      <GameId>RoadKill | SLUS-20687</GameId>
+    </GameIds>
+    <Status>g</Status>
+  </Config>
+  <Config Name="Seek and Destroy id#28328">
+    <Status>g</Status>
+  </Config>
+  <Config Name="Swing Away Golf id#18519">
+    <GameIds>
+      <GameId>Swing Away Golf | SLES-50033</GameId>
+      <GameId>Swing Away Golf | SLUS-20096</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>FMVs flicker in hardware rendering (even with Large Framebuffer), but display correctly with Software FMV hack; Software FMV hack is generally less stable with D3D than GL so using GL; Blending mode above none causes the freeze frame transitions after a match to turn very dark (inaccurate); async helps hide occasional performance dips (generally during the transition to the match summary)</Notes>
   </Config>
 </RemoteConfigs>
