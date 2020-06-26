@@ -2555,6 +2555,10 @@
   </Config>
   <Config Name="Seek and Destroy id#28328">
     <Status>g</Status>
+    <GameIds>
+      <GameId>Seek &amp; Destroy | SLES-51603</GameId>
+      <GameId>Bounty Hunter - Seek &amp; Destroy | SLUS-20606</GameId>
+    </GameIds>
   </Config>
   <Config Name="Swing Away Golf id#18519">
     <GameIds>
