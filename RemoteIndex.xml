@@ -2569,7 +2569,12 @@
     <Notes>FMVs flicker in hardware rendering (even with Large Framebuffer), but display correctly with Software FMV hack; Software FMV hack is generally less stable with D3D than GL so using GL; Blending mode above none causes the freeze frame transitions after a match to turn very dark (inaccurate); async helps hide occasional performance dips (generally during the transition to the match summary)</Notes>
   </Config>
   <Config Name="Deep Water id#139403">
-    <Status>g</Status>
+    <GameIds>
+      <GameId>Deep Water | SCES-53404</GameId>
+      <GameId>Deep Water | SLES-53404</GameId>	  
+      <GameId>Simple 2000 Series Vol 54 The Daikaijuu | SLPM-62493</GameId>
+    </GameIds>
+  <Status>g</Status>
     <Notes>Lens flare (sun) visible through walls in D3D</Notes>
   </Config>
   <Config Name="Motor Mayhem Vehicular Combat League id#151632">
