@@ -2568,4 +2568,39 @@
     <Status>g</Status>
     <Notes>FMVs flicker in hardware rendering (even with Large Framebuffer), but display correctly with Software FMV hack; Software FMV hack is generally less stable with D3D than GL so using GL; Blending mode above none causes the freeze frame transitions after a match to turn very dark (inaccurate); async helps hide occasional performance dips (generally during the transition to the match summary)</Notes>
   </Config>
+  <Config Name="Deep Water id#139403">
+    <Status>g</Status>
+    <Notes>Lens flare (sun) visible through walls in D3D</Notes>
+  </Config>
+  <Config Name="Motor Mayhem Vehicular Combat League id#151632">
+    <GameIds>
+      <GameId>Motor Mayhem | SLES-50438</GameId>
+      <GameId>Motor Mayhem - Vehicular Combat League | SLUS-20171</GameId>
+    </GameIds>
+    <Status>g</Status>
+  </Config>
+  <Config Name="Splashdown id#24719">
+    <GameIds>
+      <GameId>Splashdown | SLES-50486</GameId>
+      <GameId>Splashdown | SLPM-65113</GameId>
+      <GameId>Splashdown [PlayStation 2 The Best] | SLPM-65309</GameId>
+      <GameId>Splashdown | SLUS-20223</GameId>
+    </GameIds>
+    <Status>y</Status>
+    <Notes>Unplayable in HW rendering; rendering errors with widescreen patch</Notes>
+  </Config>
+  <Config Name="Splashdown Rides Gone Wild id#23933">
+    <GameIds>
+      <GameId>Splashdown - Rides Gone Wild | SLUS-20686</GameId>
+    </GameIds>
+    <Status>y</Status>
+    <Notes>Rendering errors and poor speed in HW; needs EE cycle skipping set to 1+ for playable speed - 1 has some occasional slowdown, 2 has none but has very noticeable skipped frames (looks worse); need a pretty good CPU!</Notes>
+  </Config>
+  <Config Name="Sub Rebellion id#33418">
+    <GameIds>
+      <GameId>Sub Rebellion | SLES-51160</GameId>
+      <GameId>Sub Rebellion | SLUS-20548</GameId>
+    </GameIds>
+    <Status>g</Status>
+  </Config>
 </RemoteConfigs>
