@@ -1,0 +1,5 @@
+comment=Michigan Report from Hell PAL No Interlacing Patch
+
+//No interleacing
+patch=1,EE,20103604,extended,64420000
+patch=1,EE,201038CC,extended,64420000
