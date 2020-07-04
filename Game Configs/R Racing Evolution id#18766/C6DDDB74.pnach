@@ -1,0 +1,5 @@
+comment=R Racing Evolution NTSC-U No Interlacing Patch
+patch=1,EE,006C2B18,extended,00000001
+patch=1,EE,006C2B40,extended,00000001
+patch=1,EE,006C2B20,extended,00000000
+patch=1,EE,006C2B48,extended,00000000

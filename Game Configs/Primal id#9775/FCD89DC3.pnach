@@ -1,0 +1,30 @@
+gametitle=Primal - Civilization Is Only Skin Deep [SCUS-97142]
+// Patched by Raziel I.C.H.I. Znot
+// PCSX2 attempts to run VU0 for thousands of cycles as soon as it is started,
+// so the game will wait endlessly in a wait loop until COP2 gets around to
+// setting vi5(to break the loop) and vf9(to finish calculation) which is many thousands of cycles later.
+// VU0 side, remove wait loop
+patch=1,EE,0040F110,word,8000033c
+patch=1,EE,0040F128,word,8000033c
+patch=1,EE,0040F168,word,8000033c
+patch=1,EE,0040F180,word,8000033c
+// duplicate, not sure that it's used, but patched anyway
+patch=1,EE,0040F720,word,8000033c
+patch=1,EE,0040F738,word,8000033c
+patch=1,EE,0040F778,word,8000033c
+patch=1,EE,0040F790,word,8000033c
+// EE side, rearrange and clean code so VU0 receives all data at once
+patch=1,EE,00399B14,word,00000000
+patch=1,EE,00399B58,word,48A44800
+patch=1,EE,00399B5C,word,4A00D839
+patch=1,EE,00399B60,word,00000000
+patch=1,EE,00399BA4,word,00000000
+patch=1,EE,00399C10,word,48A44800
+patch=1,EE,00399C14,word,4A00D839
+patch=1,EE,00399C18,word,00000000
+// Raziel GS patch that fixes HW renderer on any version of the gsdx plugin
+patch=1,EE,003C67E8,word,00051842
+patch=1,EE,003C67E8,word,00051842
+patch=1,EE,003C67F0,word,AC450014
+patch=1,EE,003C67F4,word,AC430008
+patch=1,EE,003C67FC,word,AC430010
