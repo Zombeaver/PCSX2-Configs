@@ -1,3 +1,4 @@
-comment=Hot Shots Golf 3 NTSC-U No Interlacing Patch (alternate CRC)
-patch=1,EE,0010413c,word,00000000
-patch=1,EE,001043a4,word,00000000
+comment=Hot Shots Golf 3 NTSC-U No Interlacing Patch + Shadow Disable (HW rendering speedup) (Greatest Hits)
+patch=1,EE,2033C56C,extended,00000000 //disable shadows
+patch=1,EE,0010413c,word,00000000 //no interlacing
+patch=1,EE,001043a4,word,00000000 //no interlacing

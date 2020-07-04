@@ -1,3 +1,6 @@
-comment=Hot Shots Golf 3 NTSC-U No Interlacing Patch
+comment=Hot Shots Golf 3 NTSC-U No Interlacing Patch + Shadow Disable (HW rendering speedup)
 patch=1,EE,0010413c,word,00000000
 patch=1,EE,001043a4,word,00000000
+
+//Shadow Disable (greatly improves speed in HW rendering)
+patch=1,EE,2033E46C,extended,00000000
