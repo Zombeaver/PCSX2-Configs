@@ -2607,4 +2607,54 @@
     </GameIds>
     <Status>g</Status>
   </Config>
+  <Config Name="Killzone id#35">
+    <GameIds>
+      <GameId>Killzone | SCES-52004</GameId>
+      <GameId>Killzone | SCES-52893</GameId>
+      <GameId>Killzone | SCKA-20048</GameId>
+      <GameId>Killzone [PlayStation 2 Big Hit Series] | SCKA-20078</GameId>
+      <GameId>Killzone | SCUS-97402</GameId>
+      <GameId>Killzone [Regular Demo] | SCUS-97432</GameId>
+      <GameId>Killzone [Greatest Hits] | SCUS-97517</GameId>
+      <GameId>Killzone | SLPM-66151</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>Slowdown in intro credits (SCEA, Guerilla, etc.) to about 60% but returns to normal during gameplay; TC Offset fixes bloom alignment; game seems to be playable at 4x scaling but it's pushing it, usually sitting at about 110% with framelimiter disabled (so may have slowdown at some point), and it makes the intro credits run at about 30% speed; if you use 4x scaling, change TC Offsets to 500 / 500; z-fighting on turrets</Notes>
+  </Config>
+  <Config Name="Primal id#9775">
+    <GameIds>
+      <GameId>Primal | SCES-51135</GameId>
+      <GameId>Primal | SCES-51685</GameId>
+      <GameId>Primal [Demo] | SCUS-97225</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>Using video fix patches (game is unplayably slow without them)</Notes>
+  </Config>
+  <Config Name="R Racing Evolution id#18766">
+    <GameIds>
+      <GameId>R - Racing Evolution | SCAJ-20048</GameId>
+      <GameId>R - Racing | SLES-52309</GameId>
+      <GameId>R - Racing Evolution | SLPS-25300</GameId>
+      <GameId>R Racing Evolution | SLUS-20721</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>Align sprite fixes vertical lines; some z-fighting on very distant objects; using no interlacing patch; *has native widescreen support but needs to be enabled from the options menu</Notes>
+  </Config>
+  <Config Name="Resident Evil Code Veronica X id#4796">
+    <GameIds>
+      <GameId>Resident Evil - CODE Veronica X | SLES-50306</GameId>
+      <GameId>Resident Evil - CODE Veronica X | SLUS-20184</GameId>
+    </GameIds>
+    <Status>g</Status>
+    <Notes>Some lines from upscaling in inventory screen, mitigated somewhat by TC Offset but not completely fixed; upscaling lines in text fixed by TC Offset; some occasional z-fighting</Notes>
+  </Config>
+  <Config Name="Seven Samurai 20xx id#12407">
+    <GameIds>
+      <GameId>Seven Samurai 20XX | SCAJ-20061</GameId>
+      <GameId>Seven Samurai 20XX | SLES-52348</GameId>
+      <GameId>Seven Samurai 20XX | SLPS-25313</GameId>
+      <GameId>Seven Samurai 20XX | SLUS-20621</GameId>
+    </GameIds>
+    <Status>g</Status>
+  </Config>
 </RemoteConfigs>
