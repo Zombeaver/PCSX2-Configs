@@ -96,7 +96,7 @@
       <GameId>Amplitude [Demo] | SCUS-97292</GameId>
     </GameIds>
     <Status>g</Status>
-    <Notes>Spiky polygons on avatars; no Vsync improves timing; --fullboot required to start correctly; be aware that disabling framelimiter during loading will make it not finish loading correctly because of Async - can use Timestretch but Async feels a lot better; don't disable framelimiter before title screen otherwise the game will hang</Notes>
+    <Notes>No Vsync improves timing; --fullboot required to start correctly; be aware that disabling framelimiter during loading will make it not finish loading correctly because of Async - can use Timestretch but Async feels a lot better; don't disable framelimiter before title screen otherwise the game will hang; using patch to fix spiky polygon syndrome on characters</Notes>
   </Config>
   <Config Name="Ape Escape 2 id#9625">
     <GameIds>
@@ -2482,8 +2482,8 @@
       <GameId>Hot Shots Golf 3 | SCUS-97130</GameId>
       <GameId>Hot Shots Golf 3 &amp; Parappa the Rapper 2 [Demo] | SCUS-97208</GameId>
     </GameIds>
-    <Status>y</Status>
-    <Notes>Unplayably slow in hardware rendering on courses, fine in software; using no interlacing patch; using 4:3 AR - no widescreen patch</Notes>
+    <Status>g</Status>
+    <Notes>Using no interlacing + shadow disable patch (the game very slow in hardware rendering without this); disable depth emulation improves speed in hardware rendering if you happen to be using an alternate version of the game (but not as much as the patch - you'd probably want to drop the scaling to 3x); using 4:3 AR - no widescreen patch</Notes>
   </Config>
   <Config Name="Hot Shots Golf Fore! id#7298">
     <GameIds>
@@ -2492,8 +2492,8 @@
       <GameId>Hot Shots Golf FORE! [Regular Demo] | SCUS-97430</GameId>
       <GameId>Hot Shots Golf FORE! [Greatest Hits] | SCUS-97515</GameId>
     </GameIds>
-    <Status>y</Status>
-    <Notes>Unplayably slow in hardware rendering on courses, fine in software; using no interlacing patch; using 4:3 AR - no widescreen patch</Notes>
+    <Status>g</Status>
+    <Notes>Using no interlacing + shadow disable patch (the game very slow in hardware rendering without this); disable depth emulation improves speed in hardware rendering if you happen to be using an alternate version of the game (but not as much as the patch - you'd probably want to drop the scaling to 3x); using 4:3 AR - no widescreen patch</Notes>
   </Config>
   <Config Name="Innocent Life A Futuristic Harvest Moon id#19750">
     <Status>g</Status>
@@ -2628,7 +2628,7 @@
       <GameId>Primal [Demo] | SCUS-97225</GameId>
     </GameIds>
     <Status>g</Status>
-    <Notes>Using video fix patches (game is unplayably slow without them)</Notes>
+    <Notes>Using video fix patches (game is unplayably slow without them); TC Offset improves bloom alignment</Notes>
   </Config>
   <Config Name="R Racing Evolution id#18766">
     <GameIds>
