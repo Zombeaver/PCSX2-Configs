@@ -1,0 +1,9 @@
+gametitle= Amplitude [SCUS 97258] (U)
+comment=patched by Prafull
+//fix SPS on characters
+patch=1,EE,00215e00,word,48228000
+patch=1,EE,00215e04,word,48236000
+patch=1,EE,00215e08,word,4a0055b8
+
+
+
