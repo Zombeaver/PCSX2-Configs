@@ -2496,6 +2496,9 @@
     <Notes>Using no interlacing + shadow disable patch (the game very slow in hardware rendering without this); disable depth emulation improves speed in hardware rendering if you happen to be using an alternate version of the game (but not as much as the patch - you'd probably want to drop the scaling to 3x); using 4:3 AR - no widescreen patch</Notes>
   </Config>
   <Config Name="Innocent Life A Futuristic Harvest Moon id#19750">
+    <GameIds>
+      <GameId>Innocent Life - Harvest Moon - Pure | SLUS-21641</GameId>
+    </GameIds>
     <Status>g</Status>
     <Notes>DSF fixes lines in transitions</Notes>
   </Config>
